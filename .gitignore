@@ -1,0 +1,12 @@
+/node_modules
+/.next
+/out
+/.env*
+*.log
+npm-debug.log*
+.DS_Store
+.vercel
+public/work/*.png
+public/clients/*.png
+public/tech/*.png
+public/audio/*.mp3

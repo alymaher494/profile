@@ -1,0 +1,3 @@
+# Drop project screenshots here as <slug>.png (slug = project id).
+# Example: pbc-ksa.png, emaar-land.png, 4d-fur-dich.png, moysser.png ...
+# Missing images show a branded placeholder automatically.

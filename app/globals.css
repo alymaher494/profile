@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --void: #050a14;
+  --signal: #b8f235;
+  --ink: #eef2f7;
+  --muted: #8b98ab;
+  --line: #1c2940;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background: var(--void);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Thin technical selection */
+::selection {
+  background: rgba(200, 255, 64, 0.22);
+  color: #f4ffd6;
+}
+
+/* Custom scrollbar — engineered, not decorative */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #050607;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(200, 255, 64, 0.18);
+  border: 2px solid #050607;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(200, 255, 64, 0.4);
+}
+
+@layer components {
+  /* The structural hairline that runs through the whole system */
+  .hairline {
+    @apply border-line;
+  }
+
+  /* Monospace technical marker, e.g. [ 02 / EVIDENCE ] */
+  .tech-mark {
+    @apply font-mono text-[11px] uppercase tracking-widest2 text-muted;
+  }
+
+  /* Display heading rhythm */
+  .display-xl {
+    @apply font-display font-medium leading-[0.95] tracking-[-0.02em];
+    font-size: clamp(2.6rem, 8vw, 6.5rem);
+  }
+  .display-lg {
+    @apply font-display font-medium leading-[1.0] tracking-[-0.015em];
+    font-size: clamp(2rem, 5vw, 3.6rem);
+  }
+
+  /* Coordinate tick used to "extract" the Core into UI */
+  .coord {
+    @apply font-mono text-[10px] text-signal-dim;
+    letter-spacing: 0.18em;
+  }
+
+  .shell {
+    @apply mx-auto w-full max-w-shell px-5 sm:px-8;
+  }
+}
+
+/* Static identity fallback when WebGL is unavailable — engineered, not glow-spam */
+.core-fallback {
+  background:
+    radial-gradient(circle at 62% 44%, rgba(184, 242, 53, 0.07), transparent 42%),
+    radial-gradient(circle at 50% 50%, rgba(28, 41, 64, 0.55), transparent 72%),
+    linear-gradient(rgba(28, 41, 64, 0.35) 1px, transparent 1px) 0 0 / 100% 48px,
+    linear-gradient(90deg, rgba(28, 41, 64, 0.35) 1px, transparent 1px) 0 0 / 48px 100%;
+}
+
+@keyframes signal-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.35; transform: scale(0.7); }
+}
+.animate-signal-pulse {
+  animation: signal-pulse 2.4s ease-in-out infinite;
+}
+
+/* Respect reduced motion for scroll, but the site's Motion toggle (in the nav)
+   is the explicit control for everything else, so we don't globally kill
+   transitions/animations here. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
