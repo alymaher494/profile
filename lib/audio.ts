@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const LOCAL_SRC = process.env.NEXT_PUBLIC_AUDIO_SRC || "/audio/loop.mp3";
+const LOCAL_SRC = process.env.NEXT_PUBLIC_AUDIO_SRC || "/audio/music.mp3";
 const FALLBACK_SRC = process.env.NEXT_PUBLIC_AUDIO_FALLBACK_SRC || "";
 
 type Listener = (playing: boolean) => void;
