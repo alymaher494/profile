@@ -1,10 +1,11 @@
 import { PROJECTS, CAPABILITIES, LAB_REPOS } from "@/lib/data";
 import { Reveal } from "@/components/ui/Reveal";
+import { Counter } from "@/components/ui/Counter";
 
 const METRICS = [
-  { value: String(PROJECTS.length), label: "Live client systems" },
-  { value: String(CAPABILITIES.length), label: "Engineering domains" },
-  { value: String(LAB_REPOS.length), label: "Public repositories" },
+  { value: String(PROJECTS.length), label: "Live client systems", numeric: true },
+  { value: String(CAPABILITIES.length), label: "Engineering domains", numeric: true },
+  { value: String(LAB_REPOS.length), label: "Public repositories", numeric: true },
   { value: "AR/EN", label: "Bilingual · RTL-LTR" },
 ];
 
@@ -20,7 +21,11 @@ export function ProofStrip() {
                 className="bg-void px-6 py-8 text-center lg:text-left"
               >
                 <div className="font-display text-4xl font-medium text-signal sm:text-5xl">
-                  {m.value}
+                  {m.numeric ? (
+                    <Counter to={Number(m.value)} section="evidence" />
+                  ) : (
+                    m.value
+                  )}
                 </div>
                 <div className="mt-2 font-mono text-[10px] uppercase tracking-widest2 text-muted">
                   {m.label}

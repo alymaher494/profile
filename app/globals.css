@@ -99,11 +99,38 @@ body {
   animation: signal-pulse 2.4s ease-in-out infinite;
 }
 
-/* Respect reduced motion for scroll, but the site's Motion toggle (in the nav)
-   is the explicit control for everything else, so we don't globally kill
-   transitions/animations here. */
+/* Client logo marquee — seamless infinite scroll, pauses on hover */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 32s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Subtle breathing technical grid in the hero */
+@keyframes breathe-grid {
+  0%, 100% { opacity: 0.04; }
+  50% { opacity: 0.1; }
+}
+.breathe-grid {
+  animation: breathe-grid 4.8s ease-in-out infinite;
+}
+
+/* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
+  .animate-marquee {
+    animation: none;
+  }
+}
+
+/* Slow drift on section border hairlines — uses the existing grid-drift keyframes */
+.grid-drift-line {
+  animation: grid-drift 12s linear infinite;
 }

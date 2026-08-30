@@ -62,18 +62,33 @@ export default function CaseStudiesPage() {
                   </span>
                 </div>
 
-                <a
-                  href={p.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3 block font-display text-xl font-medium text-ink transition-colors group-hover:text-signal"
-                >
-                  {p.title} <span className="text-muted-2">↗</span>
-                </a>
+                {p.url && p.url !== "#" ? (
+                  <a
+                    href={p.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 block font-display text-xl font-medium text-ink transition-colors group-hover:text-signal"
+                  >
+                    {p.title} <span className="text-muted-2">↗</span>
+                  </a>
+                ) : (
+                  <div className="mt-3 flex items-center font-display text-xl font-medium text-muted">
+                    {p.title}
+                    <span className="border border-line px-2 py-0.5 font-mono text-[9px] uppercase tracking-widest2 text-muted ml-2">
+                      Private / In Progress
+                    </span>
+                  </div>
+                )}
 
                 <p className="mt-4 text-sm leading-relaxed text-muted">
                   {p.summary}
                 </p>
+
+                {p.outcome && (
+                  <p className="mt-3 text-sm leading-relaxed text-signal-dim">
+                    Outcome: {p.outcome}
+                  </p>
+                )}
 
                 <div className="mt-5 flex flex-wrap gap-1.5">
                   {DEEP_PROOF.map((d) => (

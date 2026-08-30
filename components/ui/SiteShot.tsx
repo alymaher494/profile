@@ -1,14 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
+import { cdnLoader } from "@/lib/imageLoader";
 import { AxisField } from "@/components/ui/AxisField";
 
-/**
- * SiteShot — renders a screenshot of a real project. Drop the file at
- * /public/work/<slug>.png. If it's missing, a branded placeholder (the Core's
- * extracted geometry + the site name) is shown instead, so the layout never
- * breaks and you can add real screenshots later.
- */
 export function SiteShot({
   slug,
   title,
@@ -40,11 +36,13 @@ export function SiteShot({
   }
 
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
+    <Image
       src={`/work/${slug}.png`}
       alt={`${title} — screenshot`}
+      width={1200}
+      height={800}
       loading="lazy"
+      loader={cdnLoader}
       onError={() => setErr(true)}
       className={`h-full w-full object-cover ${className}`}
     />

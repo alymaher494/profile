@@ -124,7 +124,7 @@ function CoreFallback() {
  * (always in the DOM) remains fully readable and the identity still animates
  * via the fallback. Motion is controlled by the site's Motion toggle.
  */
-export function DigitalCore() {
+export function DigitalCore({ scrollProgress = 0 }: { scrollProgress?: number }) {
   const motionOn = useMotionPref();
   const supported = useWebGLSupported();
 
@@ -135,7 +135,7 @@ export function DigitalCore() {
   return (
     <CoreErrorBoundary fallback={<CoreFallback />}>
       <div aria-hidden className="absolute inset-0">
-        <CoreScene reduced={!motionOn} />
+        <CoreScene reduced={!motionOn} scrollProgress={scrollProgress} />
       </div>
     </CoreErrorBoundary>
   );

@@ -1,0 +1,566 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - navigation [ref=f4e3]:
+      - link [ref=f4e4] [cursor=pointer]:
+        - /url: /
+        - img "Aly Maher logo" [ref=f4e6]
+      - list [ref=f4e7]:
+        - listitem [ref=f4e8]:
+          - link "00 Core" [ref=f4e9] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f4e10]: "00"
+            - text: Core
+        - listitem [ref=f4e11]:
+          - link "01 Work" [ref=f4e12] [cursor=pointer]:
+            - /url: /work
+            - generic [ref=f4e13]: "01"
+            - text: Work
+        - listitem [ref=f4e14]:
+          - link "02 Capabilities" [ref=f4e15] [cursor=pointer]:
+            - /url: /capabilities
+            - generic [ref=f4e16]: "02"
+            - text: Capabilities
+        - listitem [ref=f4e17]:
+          - link "03 Case Studies" [ref=f4e18] [cursor=pointer]:
+            - /url: /case-studies
+            - generic [ref=f4e19]: "03"
+            - text: Case Studies
+        - listitem [ref=f4e20]:
+          - link "04 Contact" [ref=f4e21] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=f4e22]: "04"
+            - text: Contact
+      - generic [ref=f4e23]:
+        - button "Toggle site music" [ref=f4e24] [cursor=pointer]: Music
+        - link "Start" [ref=f4e27] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f4e29]:
+    - generic [ref=f4e30]:
+      - generic [ref=f4e35]:
+        - generic [ref=f4e36]:
+          - generic [ref=f4e37]: "[ 00 / NUCLEUS ]"
+          - heading "Aly Maher" [level=1] [ref=f4e38]
+          - generic [ref=f4e39]: Digital Engineer
+          - paragraph [ref=f4e41]: A developer who takes a digital problem and turns it into a production system — engineered, contract-first, and built to ship. I build complete digital systems — from WordPress and commerce to full-stack applications, integrations, infrastructure, and interactive experiences.
+          - generic [ref=f4e42]:
+            - link "View Work" [ref=f4e43] [cursor=pointer]:
+              - /url: /work
+            - link "Start a Project" [ref=f4e44] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=f4e45]:
+            - generic [ref=f4e46]: Remote · GCC-friendly
+            - generic [ref=f4e48]: Available for freelance & remote
+        - generic [ref=f4e49]:
+          - generic [ref=f4e50]: SYS.ORIGIN // 0,0,0
+          - generic [ref=f4e52]: AXIS.X — FRONTEND
+          - generic [ref=f4e53]: AXIS.Y — SYSTEMS
+          - generic [ref=f4e54]: AXIS.Z — INFRA
+          - generic [ref=f4e56]: "STATUS: ONLINE"
+      - generic [ref=f4e57]: ↓ descend
+    - generic [ref=f4e61]:
+      - generic [ref=f4e62]:
+        - generic [ref=f4e63]: "0"
+        - generic [ref=f4e64]: Live client systems
+        - generic [ref=f4e65]: NODE.01
+      - generic [ref=f4e66]:
+        - generic [ref=f4e67]: "0"
+        - generic [ref=f4e68]: Engineering domains
+        - generic [ref=f4e69]: NODE.02
+      - generic [ref=f4e70]:
+        - generic [ref=f4e71]: "0"
+        - generic [ref=f4e72]: Public repositories
+        - generic [ref=f4e73]: NODE.03
+      - generic [ref=f4e74]:
+        - generic [ref=f4e75]: AR/EN
+        - generic [ref=f4e76]: Bilingual · RTL-LTR
+        - generic [ref=f4e77]: NODE.04
+    - generic [ref=f4e79]:
+      - generic [ref=f4e80]: "[ 00 / SYSTEM MAP ]"
+      - generic [ref=f4e81]:
+        - heading "The system, mapped." [level=2] [ref=f4e82]
+        - paragraph [ref=f4e83]: One identity, four nodes. Each opens a deeper layer — from the shipped evidence to the engineering beneath it.
+      - generic [ref=f4e84]:
+        - link "NODE.01 → Selected Work Live client systems — the evidence ledger of real, shipped builds." [ref=f4e86] [cursor=pointer]:
+          - /url: /work
+          - generic [ref=f4e88]:
+            - generic [ref=f4e89]: NODE.01
+            - generic [ref=f4e90]: →
+          - heading "Selected Work" [level=3] [ref=f4e91]
+          - paragraph [ref=f4e92]: Live client systems — the evidence ledger of real, shipped builds.
+        - link "NODE.02 → Capabilities Four engineering domains, from headless web to infrastructure." [ref=f4e94] [cursor=pointer]:
+          - /url: /capabilities
+          - generic [ref=f4e96]:
+            - generic [ref=f4e97]: NODE.02
+            - generic [ref=f4e98]: →
+          - heading "Capabilities" [level=3] [ref=f4e99]
+          - paragraph [ref=f4e100]: Four engineering domains, from headless web to infrastructure.
+        - link "NODE.03 → Case Studies Architecture, contracts, and the decisions behind the builds." [ref=f4e102] [cursor=pointer]:
+          - /url: /case-studies
+          - generic [ref=f4e104]:
+            - generic [ref=f4e105]: NODE.03
+            - generic [ref=f4e106]: →
+          - heading "Case Studies" [level=3] [ref=f4e107]
+          - paragraph [ref=f4e108]: Architecture, contracts, and the decisions behind the builds.
+        - link "NODE.04 → Contact Freelance, remote, or a technical conversation about a system." [ref=f4e110] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=f4e112]:
+            - generic [ref=f4e113]: NODE.04
+            - generic [ref=f4e114]: →
+          - heading "Contact" [level=3] [ref=f4e115]
+          - paragraph [ref=f4e116]: Freelance, remote, or a technical conversation about a system.
+    - generic [ref=f4e118]:
+      - generic [ref=f4e119]:
+        - generic [ref=f4e120]: "[01"
+        - generic [ref=f4e122]: EVIDENCE
+        - generic [ref=f4e123]: "]"
+      - generic [ref=f4e124]:
+        - generic [ref=f4e125]:
+          - heading "Selected systems." [level=2] [ref=f4e126]
+          - paragraph [ref=f4e127]: A sample of live builds — commerce, bilingual real-estate, AI marketing, and agency storefronts. Each one shipped and running.
+        - link "Full work index →" [ref=f4e129] [cursor=pointer]:
+          - /url: /work
+      - generic [ref=f4e130]:
+        - link "Super Marketer — screenshot PRJ.06 Super Marketer Super Marketer — INT · 2026 ↗" [ref=f4e132] [cursor=pointer]:
+          - /url: https://supermarketer.net
+          - img "Super Marketer — screenshot" [ref=f4e134]
+          - generic [ref=f4e135]:
+            - generic [ref=f4e137]:
+              - generic [ref=f4e138]: PRJ.06
+              - generic [ref=f4e139]: Super Marketer
+              - generic [ref=f4e140]: Super Marketer — INT · 2026
+            - generic [ref=f4e141]: ↗
+        - link "4D Für Dich — screenshot PRJ.03 4D Für Dich 4D Für Dich — DE · 2025 ↗" [ref=f4e143] [cursor=pointer]:
+          - /url: https://4d4dich.de
+          - img "4D Für Dich — screenshot" [ref=f4e145]
+          - generic [ref=f4e146]:
+            - generic [ref=f4e148]:
+              - generic [ref=f4e149]: PRJ.03
+              - generic [ref=f4e150]: 4D Für Dich
+              - generic [ref=f4e151]: 4D Für Dich — DE · 2025
+            - generic [ref=f4e152]: ↗
+        - link "Professional Business Center — screenshot PRJ.01 Professional Business Center PBC — KSA · 2026 ↗" [ref=f4e154] [cursor=pointer]:
+          - /url: https://pbc-ksa.com
+          - img "Professional Business Center — screenshot" [ref=f4e156]
+          - generic [ref=f4e157]:
+            - generic [ref=f4e159]:
+              - generic [ref=f4e160]: PRJ.01
+              - generic [ref=f4e161]: Professional Business Center
+              - generic [ref=f4e162]: PBC — KSA · 2026
+            - generic [ref=f4e163]: ↗
+        - link "MTGAR — Digital Growth Agency — screenshot PRJ.07 MTGAR — Digital Growth Agency MTGAR — KSA · 2026 ↗" [ref=f4e165] [cursor=pointer]:
+          - /url: https://landing.mtgar.com
+          - img "MTGAR — Digital Growth Agency — screenshot" [ref=f4e167]
+          - generic [ref=f4e168]:
+            - generic [ref=f4e170]:
+              - generic [ref=f4e171]: PRJ.07
+              - generic [ref=f4e172]: MTGAR — Digital Growth Agency
+              - generic [ref=f4e173]: MTGAR — KSA · 2026
+            - generic [ref=f4e174]: ↗
+    - generic [ref=f4e175]:
+      - generic [ref=f4e176]:
+        - generic [ref=f4e177]:
+          - generic [ref=f4e178]: "[01"
+          - generic [ref=f4e180]: CLIENTS
+          - generic [ref=f4e181]: "]"
+        - generic [ref=f4e182]:
+          - heading "Trusted by." [level=2] [ref=f4e183]
+          - paragraph [ref=f4e184]: Real companies that shipped real systems. Names and storefronts.
+      - generic [ref=f4e186]:
+        - link [ref=f4e187] [cursor=pointer]:
+          - /url: https://pbc-ksa.com
+          - img "PBC" [ref=f4e188]
+        - link [ref=f4e189] [cursor=pointer]:
+          - /url: https://emaar.sa
+          - img "Emaar Land" [ref=f4e190]
+        - link [ref=f4e191] [cursor=pointer]:
+          - /url: https://4d4dich.de
+          - img "4D Für Dich" [ref=f4e192]
+        - link [ref=f4e193] [cursor=pointer]:
+          - /url: https://pizzahira-dingolfing.de
+          - img "Pizza by Hira" [ref=f4e194]
+        - link [ref=f4e195] [cursor=pointer]:
+          - /url: https://fitnesstotal-schoeneck.de
+          - img "Fitness Total" [ref=f4e196]
+        - link [ref=f4e197] [cursor=pointer]:
+          - /url: https://supermarketer.net
+          - img "Super Marketer" [ref=f4e198]
+        - link [ref=f4e199] [cursor=pointer]:
+          - /url: https://landing.mtgar.com
+          - img "MTGAR" [ref=f4e200]
+        - link [ref=f4e201] [cursor=pointer]:
+          - /url: https://pbc-ksa.com
+          - img "PBC" [ref=f4e202]
+        - link [ref=f4e203] [cursor=pointer]:
+          - /url: https://emaar.sa
+          - img "Emaar Land" [ref=f4e204]
+        - link [ref=f4e205] [cursor=pointer]:
+          - /url: https://4d4dich.de
+          - img "4D Für Dich" [ref=f4e206]
+        - link [ref=f4e207] [cursor=pointer]:
+          - /url: https://pizzahira-dingolfing.de
+          - img "Pizza by Hira" [ref=f4e208]
+        - link [ref=f4e209] [cursor=pointer]:
+          - /url: https://fitnesstotal-schoeneck.de
+          - img "Fitness Total" [ref=f4e210]
+        - link [ref=f4e211] [cursor=pointer]:
+          - /url: https://supermarketer.net
+          - img "Super Marketer" [ref=f4e212]
+        - link [ref=f4e213] [cursor=pointer]:
+          - /url: https://landing.mtgar.com
+          - img "MTGAR" [ref=f4e214]
+    - generic [ref=f4e216]:
+      - generic [ref=f4e217]:
+        - generic [ref=f4e218]:
+          - generic [ref=f4e219]: "[ 02 / ARCHITECTURE ]"
+          - generic [ref=f4e220]:
+            - heading "Four engineering domains." [level=2] [ref=f4e221]
+            - paragraph [ref=f4e222]: From headless web to infrastructure — each engagement draws on a defined capability stack, contract-first and built to ship.
+        - link "All capabilities →" [ref=f4e224] [cursor=pointer]:
+          - /url: /capabilities
+      - generic [ref=f4e225]:
+        - generic [ref=f4e226]:
+          - generic [ref=f4e228]: MOD.01
+          - heading "Headless Web & E-commerce" [level=3] [ref=f4e229]
+          - list [ref=f4e230]:
+            - listitem [ref=f4e231]: Next.js (App Router) + WordPress / ACF Pro
+            - listitem [ref=f4e233]: On-Demand ISR & Edge caching
+            - listitem [ref=f4e235]: Bilingual AR/EN · RTL-LTR
+        - generic [ref=f4e237]:
+          - generic [ref=f4e239]: MOD.02
+          - heading "Payment Middleware & Checkout" [level=3] [ref=f4e240]
+          - list [ref=f4e241]:
+            - listitem [ref=f4e242]: Payment aggregation (Moyasar, EdfaPay, Payone)
+            - listitem [ref=f4e244]: Webhook verification & reconciliation
+            - listitem [ref=f4e246]: Cryptographic signatures
+        - generic [ref=f4e248]:
+          - generic [ref=f4e250]: MOD.03
+          - heading "Applied AI & Automation" [level=3] [ref=f4e251]
+          - list [ref=f4e252]:
+            - listitem [ref=f4e253]: LLM multi-model routing
+            - listitem [ref=f4e255]: Contract-first agent frameworks
+            - listitem [ref=f4e257]: WhatsApp / Evolution API
+        - generic [ref=f4e259]:
+          - generic [ref=f4e261]: MOD.04
+          - heading "Multi-Tenant & Infrastructure" [level=3] [ref=f4e262]
+          - list [ref=f4e263]:
+            - listitem [ref=f4e264]: Supabase · PostgreSQL RLS
+            - listitem [ref=f4e266]: Linux VPS · Docker · Caddy / Nginx
+            - listitem [ref=f4e268]: Dual-Node High Availability
+    - generic [ref=f4e271]:
+      - generic [ref=f4e272]:
+        - generic [ref=f4e273]: "[ 02 / STACK ]"
+        - heading "The toolkit." [level=2] [ref=f4e274]
+        - paragraph [ref=f4e275]: The technologies I reach for to ship production systems — from front-end frameworks to infrastructure.
+      - generic [ref=f4e276]:
+        - generic [ref=f4e277]:
+          - img "Next.js" [ref=f4e279]
+          - generic [ref=f4e280]: Next.js
+        - generic [ref=f4e281]:
+          - generic:
+            - img "React"
+          - generic [ref=f4e282]: React
+        - generic [ref=f4e283]:
+          - generic:
+            - img "TypeScript"
+          - generic [ref=f4e284]: TypeScript
+        - generic [ref=f4e285]:
+          - generic:
+            - img "WordPress"
+          - generic [ref=f4e286]: WordPress
+        - generic [ref=f4e287]:
+          - generic:
+            - img "WooCommerce"
+          - generic [ref=f4e288]: WooCommerce
+        - generic [ref=f4e289]:
+          - generic:
+            - img "Python"
+          - generic [ref=f4e290]: Python
+        - generic [ref=f4e291]:
+          - generic:
+            - img "Supabase"
+          - generic [ref=f4e292]: Supabase
+        - generic [ref=f4e293]:
+          - generic:
+            - img "PostgreSQL"
+          - generic [ref=f4e294]: PostgreSQL
+        - generic [ref=f4e295]:
+          - generic:
+            - img "Docker"
+          - generic [ref=f4e296]: Docker
+        - generic [ref=f4e297]:
+          - generic:
+            - img "Vercel"
+          - generic [ref=f4e298]: Vercel
+        - generic [ref=f4e299]:
+          - generic:
+            - img "Cloudflare"
+          - generic [ref=f4e300]: Cloudflare
+        - generic [ref=f4e301]:
+          - generic:
+            - img "Node.js"
+          - generic [ref=f4e302]: Node.js
+        - generic [ref=f4e303]:
+          - generic:
+            - img "Express"
+          - generic [ref=f4e304]: Express
+        - generic [ref=f4e305]:
+          - generic:
+            - img "FastAPI"
+          - generic [ref=f4e306]: FastAPI
+        - generic [ref=f4e307]:
+          - img "Go" [ref=f4e309]
+          - generic [ref=f4e310]: Go
+        - generic [ref=f4e311]:
+          - img "Vue" [ref=f4e313]
+          - generic [ref=f4e314]: Vue
+        - generic [ref=f4e315]:
+          - img "Nuxt" [ref=f4e317]
+          - generic [ref=f4e318]: Nuxt
+        - generic [ref=f4e319]:
+          - img "ACF Pro" [ref=f4e321]
+          - generic [ref=f4e322]: ACF Pro
+        - generic [ref=f4e323]:
+          - generic:
+            - img "GraphQL"
+          - generic [ref=f4e324]: GraphQL
+        - generic [ref=f4e325]:
+          - generic:
+            - img "Caddy"
+          - generic [ref=f4e326]: Caddy
+    - generic [ref=f4e328]:
+      - generic [ref=f4e329]:
+        - generic [ref=f4e330]: "[03"
+        - generic [ref=f4e332]: FROM THE LAB
+        - generic [ref=f4e333]: "]"
+      - generic [ref=f4e334]:
+        - generic [ref=f4e335]:
+          - heading "Public engineering." [level=2] [ref=f4e336]
+          - paragraph [ref=f4e337]: Live from GitHub — real repositories across TypeScript, Vue, Python, and Dart. Continuous, hands-on building.
+        - link "github.com/alymaher494 ↗" [ref=f4e339] [cursor=pointer]:
+          - /url: https://github.com/alymaher494
+      - generic [ref=f4e340]:
+        - link "tqdr-plus ↗ case Vue / Aug 2026" [ref=f4e342] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/tqdr-plus
+          - generic [ref=f4e343]:
+            - generic [ref=f4e344]: tqdr-plus ↗
+            - generic [ref=f4e345]: case
+          - generic [ref=f4e346]:
+            - text: Vue
+            - generic [ref=f4e348]: /
+            - text: Aug 2026
+        - link "dental-germany ↗ TypeScript / Aug 2026" [ref=f4e350] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/dental-germany
+          - generic [ref=f4e351]: dental-germany ↗
+          - generic [ref=f4e353]:
+            - text: TypeScript
+            - generic [ref=f4e355]: /
+            - text: Aug 2026
+        - link "ai-assistant ↗ TypeScript / Aug 2026" [ref=f4e357] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/ai-assistant
+          - generic [ref=f4e358]: ai-assistant ↗
+          - generic [ref=f4e360]:
+            - text: TypeScript
+            - generic [ref=f4e362]: /
+            - text: Aug 2026
+        - link "beauty-academy ↗ JavaScript / Aug 2026" [ref=f4e364] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/beauty-academy
+          - generic [ref=f4e365]: beauty-academy ↗
+          - generic [ref=f4e367]:
+            - text: JavaScript
+            - generic [ref=f4e369]: /
+            - text: Aug 2026
+        - link "alnebras ↗ case TypeScript / Aug 2026" [ref=f4e371] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/alnebras
+          - generic [ref=f4e372]:
+            - generic [ref=f4e373]: alnebras ↗
+            - generic [ref=f4e374]: case
+          - generic [ref=f4e375]:
+            - text: TypeScript
+            - generic [ref=f4e377]: /
+            - text: Aug 2026
+        - link "painting-woocomarce ↗ TypeScript / Jul 2026" [ref=f4e379] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/painting-woocomarce
+          - generic [ref=f4e380]: painting-woocomarce ↗
+          - generic [ref=f4e382]:
+            - text: TypeScript
+            - generic [ref=f4e384]: /
+            - text: Jul 2026
+        - link "chat-project ↗ TypeScript / Jul 2026" [ref=f4e386] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/chat-project
+          - generic [ref=f4e387]: chat-project ↗
+          - generic [ref=f4e389]:
+            - text: TypeScript
+            - generic [ref=f4e391]: /
+            - text: Jul 2026
+        - link "kobani-rsvp ↗ TypeScript / Jul 2026" [ref=f4e393] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/kobani-rsvp
+          - generic [ref=f4e394]: kobani-rsvp ↗
+          - generic [ref=f4e396]:
+            - text: TypeScript
+            - generic [ref=f4e398]: /
+            - text: Jul 2026
+        - link "4d4dich.de ↗ case TypeScript / Jun 2026" [ref=f4e400] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/4d4dich.de
+          - generic [ref=f4e401]:
+            - generic [ref=f4e402]: 4d4dich.de ↗
+            - generic [ref=f4e403]: case
+          - generic [ref=f4e404]:
+            - text: TypeScript
+            - generic [ref=f4e406]: /
+            - text: Jun 2026
+        - link "shpifay-payzaty ↗ TypeScript / Apr 2026" [ref=f4e408] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/shpifay-payzaty
+          - generic [ref=f4e409]: shpifay-payzaty ↗
+          - generic [ref=f4e411]:
+            - text: TypeScript
+            - generic [ref=f4e413]: /
+            - text: Apr 2026
+        - link "Aqara-crm ↗ TypeScript / Mar 2026" [ref=f4e415] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/Aqara-crm
+          - generic [ref=f4e416]: Aqara-crm ↗
+          - generic [ref=f4e418]:
+            - text: TypeScript
+            - generic [ref=f4e420]: /
+            - text: Mar 2026
+        - link "supermarketer ↗ case TypeScript / Feb 2026" [ref=f4e422] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/supermarketer
+          - generic [ref=f4e423]:
+            - generic [ref=f4e424]: supermarketer ↗
+            - generic [ref=f4e425]: case
+          - generic [ref=f4e426]:
+            - text: TypeScript
+            - generic [ref=f4e428]: /
+            - text: Feb 2026
+        - link "landing-mtgar ↗ case JavaScript / Jan 2026" [ref=f4e430] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/landing-mtgar
+          - generic [ref=f4e431]:
+            - generic [ref=f4e432]: landing-mtgar ↗
+            - generic [ref=f4e433]: case
+          - generic [ref=f4e434]:
+            - text: JavaScript
+            - generic [ref=f4e436]: /
+            - text: Jan 2026
+        - link "voith-platform ↗ Python / Jan 2026" [ref=f4e438] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/voith-platform
+          - generic [ref=f4e439]: voith-platform ↗
+          - generic [ref=f4e441]:
+            - text: Python
+            - generic [ref=f4e443]: /
+            - text: Jan 2026
+        - link "voith ↗ — / Dec 2025" [ref=f4e445] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/voith
+          - generic [ref=f4e446]: voith ↗
+          - generic [ref=f4e448]:
+            - text: —
+            - generic [ref=f4e450]: /
+            - text: Dec 2025
+        - link "latakia-cus ↗ Dart / Aug 2025" [ref=f4e452] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/latakia-cus
+          - generic [ref=f4e453]: latakia-cus ↗
+          - generic [ref=f4e455]:
+            - text: Dart
+            - generic [ref=f4e457]: /
+            - text: Aug 2025
+      - generic [ref=f4e458]:
+        - generic [ref=f4e459]: Live
+        - generic [ref=f4e461]: Updated 12:15 AM
+    - generic [ref=f4e463]:
+      - generic [ref=f4e464]:
+        - generic [ref=f4e465]: "[ 05 / ENGAGEMENT ]"
+        - heading "How we work." [level=2] [ref=f4e466]
+      - generic [ref=f4e467]:
+        - generic [ref=f4e468]:
+          - generic [ref=f4e469]: STEP.01
+          - heading "Brief" [level=3] [ref=f4e470]
+          - paragraph [ref=f4e471]: You send the problem. I map the system, the stack, and the contract.
+        - generic [ref=f4e472]:
+          - generic [ref=f4e473]: STEP.02
+          - heading "Build" [level=3] [ref=f4e474]
+          - paragraph [ref=f4e475]: Contract-first engineering with visible progress — no black boxes.
+        - generic [ref=f4e476]:
+          - generic [ref=f4e477]: STEP.03
+          - heading "Ship" [level=3] [ref=f4e478]
+          - paragraph [ref=f4e479]: Production-hardened, documented, and handed over ready to run.
+    - generic [ref=f4e481]:
+      - generic [ref=f4e482]:
+        - generic [ref=f4e483]: "[04"
+        - generic [ref=f4e485]: TERMINAL
+        - generic [ref=f4e486]: "]"
+      - generic [ref=f4e487]:
+        - heading "Let's build your system." [level=2] [ref=f4e488]
+        - paragraph [ref=f4e489]: Freelance engagements, remote roles, or a technical conversation about a system you need shipped. Send a brief — I'll reply fast.
+      - generic [ref=f4e490]:
+        - link "alymaher.494@gmail.com" [ref=f4e492] [cursor=pointer]:
+          - /url: mailto:alymaher.494@gmail.com
+        - link "WhatsApp" [ref=f4e494] [cursor=pointer]:
+          - /url: https://wa.me/201152663461
+      - generic [ref=f4e497]:
+        - generic [ref=f4e498]:
+          - textbox "Name" [ref=f4e499]
+          - textbox "Email" [ref=f4e500]
+        - combobox [ref=f4e501]:
+          - option "Project type" [disabled] [selected]
+          - option "SPEC.DOM-01 · Headless Web & E-commerce"
+          - option "SPEC.DOM-02 · Payment Middleware"
+          - option "SPEC.DOM-03 · Applied AI & Automation"
+          - option "SPEC.DOM-04 · Multi-Tenant & Infra"
+        - textbox "Tell me about the system you need shipped…" [ref=f4e502]
+        - button "Send brief" [ref=f4e503] [cursor=pointer]
+        - paragraph [ref=f4e504]: No form key set — this opens your email client instead.
+      - generic [ref=f4e505]:
+        - link "GitHub" [ref=f4e506] [cursor=pointer]:
+          - /url: https://github.com/alymaher494
+        - link "LinkedIn" [ref=f4e507] [cursor=pointer]:
+          - /url: "#"
+        - link "WhatsApp" [ref=f4e508] [cursor=pointer]:
+          - /url: https://wa.me/201152663461
+        - link "Email" [ref=f4e509] [cursor=pointer]:
+          - /url: mailto:alymaher.494@gmail.com
+      - generic [ref=f4e510]: SYS.END // Aly Maher — AI-Powered Creative Full-Stack Developer & Systems Engineer
+  - contentinfo [ref=f4e513]:
+    - generic [ref=f4e514]:
+      - generic [ref=f4e515]:
+        - img "Aly Maher logo" [ref=f4e518]
+        - paragraph [ref=f4e519]: AI-Powered Creative Full-Stack Developer & Systems Engineer
+      - generic [ref=f4e520]:
+        - generic [ref=f4e521]: "[ NAV ]"
+        - list [ref=f4e522]:
+          - listitem [ref=f4e523]:
+            - link "Selected Work" [ref=f4e524] [cursor=pointer]:
+              - /url: /work
+          - listitem [ref=f4e525]:
+            - link "Capabilities" [ref=f4e526] [cursor=pointer]:
+              - /url: /capabilities
+          - listitem [ref=f4e527]:
+            - link "Case Studies" [ref=f4e528] [cursor=pointer]:
+              - /url: /case-studies
+          - listitem [ref=f4e529]:
+            - link "Contact" [ref=f4e530] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f4e531]:
+        - generic [ref=f4e532]: "[ CHANNELS ]"
+        - list [ref=f4e533]:
+          - listitem [ref=f4e534]:
+            - link "GitHub" [ref=f4e535] [cursor=pointer]:
+              - /url: https://github.com/alymaher494
+          - listitem [ref=f4e536]:
+            - link "LinkedIn" [ref=f4e537] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f4e538]:
+            - link "WhatsApp" [ref=f4e539] [cursor=pointer]:
+              - /url: https://wa.me/201152663461
+          - listitem [ref=f4e540]:
+            - link "Email" [ref=f4e541] [cursor=pointer]:
+              - /url: mailto:alymaher.494@gmail.com
+          - listitem [ref=f4e542]:
+            - link "alymaher.494@gmail.com" [ref=f4e543] [cursor=pointer]:
+              - /url: mailto:alymaher.494@gmail.com
+      - generic [ref=f4e544]:
+        - generic [ref=f4e545]: "[ STATUS ]"
+        - paragraph [ref=f4e546]: Available for freelance & remote engagements.
+        - paragraph [ref=f4e547]: Remote · GCC-friendly
+    - generic [ref=f4e548]: SYS.END // Aly Maher — AI-Powered Creative Full-Stack Developer & Systems Engineer
+  - link "Message on WhatsApp":
+    - /url: https://wa.me/201152663461
+  - button "Open Next.js Dev Tools" [ref=f4e557] [cursor=pointer]
+  - alert [ref=f4e561]

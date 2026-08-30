@@ -42,3 +42,27 @@ export function staggerContainer(stagger = 0.08, delay = 0): Variants {
     },
   };
 }
+
+export function staggerFast(stagger = 0.03, delay = 0): Variants {
+  return {
+    hidden: {},
+    show: {
+      transition: { staggerChildren: stagger, delayChildren: delay },
+    },
+  };
+}
+
+export function float(y = [-6, 6], duration = 3.6): Variants {
+  return {
+    hidden: { y: 0 },
+    show: {
+      y: y[0],
+      transition: {
+        duration,
+        repeat: Infinity,
+        repeatType: "mirror",
+        ease: "easeInOut",
+      },
+    },
+  };
+}

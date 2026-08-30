@@ -1,0 +1,952 @@
+- generic [ref=e2]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#mainContent"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - navigation "Top Nav" [ref=e8]:
+        - generic [ref=e9]:
+          - link "OREO Home" [ref=e13] [cursor=pointer]:
+            - /url: /
+            - img "Oreo Cookies" [ref=e15]
+          - navigation "Main navigation" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button [ref=e20] [cursor=pointer]:
+                  - generic [ref=e23]:
+                    - generic [ref=e24]: Shop
+                    - generic [ref=e28]: Shop
+              - listitem [ref=e32]:
+                - button [ref=e34] [cursor=pointer]:
+                  - generic [ref=e37]:
+                    - generic [ref=e38]: Gifts
+                    - generic [ref=e42]: Gifts
+              - listitem [ref=e46]:
+                - button [ref=e48] [cursor=pointer]:
+                  - generic [ref=e51]:
+                    - generic [ref=e52]: Oreoverse
+                    - generic [ref=e56]: Oreoverse
+              - listitem [ref=e60]:
+                - link "Recipes" [ref=e62] [cursor=pointer]:
+                  - /url: /recipe
+                  - generic [ref=e65]:
+                    - generic [ref=e66]: Recipes
+                    - generic [ref=e68]: Recipes
+          - generic [ref=e71]:
+            - button "Open search" [ref=e75] [cursor=pointer]
+            - link "Account" [ref=e83] [cursor=pointer]:
+              - /url: /account
+            - link "DESIGN YOUR OREOiD" [ref=e88] [cursor=pointer]:
+              - /url: /oreoid
+              - generic [ref=e89]:
+                - generic: DESIGN YOUR OREOiD
+                - generic [ref=e90]: DESIGN YOUR OREOiD
+                - generic [ref=e94]: DESIGN YOUR OREOiD
+    - main [ref=e100]:
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - heading "OREO Twist Lick Vote" [level=1] [ref=e106]
+          - heading "Three Flavors. One Can Return. You Choose." [level=2] [ref=e107]:
+            - generic [ref=e108]:
+              - generic [ref=e109]: Three Flavors.
+              - generic [ref=e110]: One Can Return.
+            - generic [ref=e111]: You Choose.
+          - paragraph [ref=e112]:
+            - text: The flavor fate is in your hands. Vote for one new flavor to return and be entered for the chance to win a year's supply
+            - superscript [ref=e113]: †
+            - text: of original OREO cookies.*
+          - generic [ref=e114]:
+            - link "Vote & Enter Sweeps" [ref=e115] [cursor=pointer]:
+              - /url: /twist-lick-vote#scroll:ticker
+            - generic [ref=e118]:
+              - link "Shop Now" [ref=e119] [cursor=pointer]:
+                - /url: /products/twist-lick-vote-3-flavor-bundle
+              - text: "*"
+          - generic [ref=e121]:
+            - generic [ref=e122]: "*NO PURCHASE NECESSARY."
+            - text: Open to legal residents of the 50 United States & D.C., 18 and older. Ends on 10/12/26 at 11:59 p.m. ET. See
+            - link "Official Rules" [ref=e123] [cursor=pointer]:
+              - /url: https://bit.ly/4uomQT1
+            - text: "for how to enter, odds, prize description and all details. Your vote will not affect your entry. Limit 1 entry per person. Void where prohibited. Sponsor: Mondelēz Global LLC, 100 Deforest Ave., East Hanover, NJ 07936-2813."
+            - generic [ref=e124]: †1 year's supply of OREO cookies awarded as 10 13.29 oz. packages shipped every 3 months over a 12 month period.
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - img "Star emoji"
+          - img "Face emoji" [ref=e128]
+          - generic [ref=e129]:
+            - img "Thumb emoji"
+          - img "Banana Pudding OREO Cookie" [ref=e130]
+          - img "Chicken & Waffles OREO Cookie" [ref=e131]
+          - img "Deep Fried OREO Cookie" [ref=e132]
+          - img "Banana Pudding Logo"
+          - img "Chicken & Waffles Logo"
+          - img "Deep Fried Logo"
+      - generic [ref=e143]:
+        - link "Start Creating" [ref=e145] [cursor=pointer]:
+          - /url: /oreoid
+          - generic [ref=e146]:
+            - generic: Start Creating
+            - generic [ref=e147]: Start Creating
+            - generic [ref=e151]: Start Creating
+        - link "Browse Popular Designs" [ref=e158] [cursor=pointer]:
+          - /url: /oreoid-collections
+          - generic [ref=e159]:
+            - generic: Browse Popular Designs
+            - generic [ref=e160]: Browse Popular Designs
+            - generic [ref=e162]: Browse Popular Designs
+      - generic [ref=e170]:
+        - heading "Take Your Pick" [level=2] [ref=e172]
+        - generic [ref=e175]:
+          - link "OREOiD Cookie Preview White Fudge" [ref=e177] [cursor=pointer]:
+            - /url: /oreoid?dip=white-fudge
+            - img "OREOiD Cookie Preview" [ref=e180]
+            - generic [ref=e182]:
+              - generic: White Fudge
+              - generic [ref=e183]: White Fudge
+              - generic [ref=e185]: White Fudge
+          - link "OREOiD Cookie Preview Milk Chocolate Fudge" [ref=e189] [cursor=pointer]:
+            - /url: /oreoid?dip=fudge
+            - img "OREOiD Cookie Preview" [ref=e192]
+            - generic [ref=e194]:
+              - generic: Milk Chocolate Fudge
+              - generic [ref=e195]: Milk Chocolate Fudge
+              - generic [ref=e197]: Milk Chocolate Fudge
+          - link "OREOiD Cookie Preview No Fudge" [ref=e201] [cursor=pointer]:
+            - /url: /oreoid?dip=no-fudge
+            - img "OREOiD Cookie Preview" [ref=e204]
+            - generic [ref=e206]:
+              - generic: No Fudge
+              - generic [ref=e207]: No Fudge
+              - generic [ref=e209]: No Fudge
+      - generic [ref=e217]:
+        - heading "YOU MAY ALSO LIKE" [level=2] [ref=e218]
+        - generic [ref=e221]:
+          - generic [ref=e223]:
+            - generic [ref=e224]: NEW!
+            - generic [ref=e227]:
+              - link "View full product page for Orange Creme Halloween Cookies, Limited Edition, 2 Pack" [ref=e229] [cursor=pointer]:
+                - /url: /products/orange-creme-chocolate-sandwich-cookies-limited-edition-halloween-cookies
+                - img "Orange Creme Halloween Cookies, Limited Edition, 2 Pack" [ref=e234]
+              - generic [ref=e235]:
+                - generic [ref=e236]:
+                  - link [ref=e237] [cursor=pointer]:
+                    - /url: /products/orange-creme-chocolate-sandwich-cookies-limited-edition-halloween-cookies
+                    - generic [ref=e238]: Orange Creme Halloween Cookies, Limited Edition, 2 Pack
+                  - generic [ref=e239]: $10.00
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - button "Add Orange Creme Halloween Cookies, Limited Edition, 2 Pack to cart":
+                            - generic:
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+          - generic [ref=e243]:
+            - link "View full product page for Apple Pie a la Mode Sandwich Cookies, Limited Edition, 2 Pack" [ref=e245] [cursor=pointer]:
+              - /url: /products/apple-pie-a-la-mode-sandwich-cookies-limited-edition
+              - img "Apple Pie a la Mode Sandwich Cookies, Limited Edition, 2 Pack" [ref=e250]
+            - generic [ref=e251]:
+              - generic [ref=e252]:
+                - link [ref=e253] [cursor=pointer]:
+                  - /url: /products/apple-pie-a-la-mode-sandwich-cookies-limited-edition
+                  - generic [ref=e254]: Apple Pie a la Mode Sandwich Cookies, Limited Edition, 2 Pack
+                - generic [ref=e255]: $10.00
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Notify me when undefined is back in stock":
+                      - generic:
+                        - generic: Notify Me
+                        - generic: Notify Me
+                        - generic: Notify Me
+          - generic [ref=e258]:
+            - generic [ref=e259]: NEW!
+            - generic [ref=e262]:
+              - link "View full product page for OREOiD Campfire S'More - 12ct" [ref=e264] [cursor=pointer]:
+                - /url: /products/oreoid-campfire-smore-12ct
+                - img "OREOiD Campfire S'More - 12ct" [ref=e269]
+              - generic [ref=e270]:
+                - generic [ref=e271]:
+                  - link [ref=e272] [cursor=pointer]:
+                    - /url: /products/oreoid-campfire-smore-12ct
+                    - generic [ref=e273]: OREOiD Campfire S'More - 12ct
+                  - generic [ref=e274]: $24.99
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - button "Add OREOiD Campfire S'More - 12ct to cart":
+                            - generic:
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+          - generic [ref=e277]:
+            - generic [ref=e278]: NEW!
+            - generic [ref=e281]:
+              - link "View full product page for OREOiD Special Edition Star Wars™ 12ct" [ref=e283] [cursor=pointer]:
+                - /url: /products/oreoid-star-wars
+                - img "OREOiD Special Edition Star Wars™ 12ct" [ref=e288]
+              - generic [ref=e289]:
+                - generic [ref=e290]:
+                  - link [ref=e291] [cursor=pointer]:
+                    - /url: /products/oreoid-star-wars
+                    - generic [ref=e292]: OREOiD Special Edition Star Wars™ 12ct
+                  - generic [ref=e293]: $42.99
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - button "Add OREOiD Special Edition Star Wars™ 12ct to cart":
+                            - generic:
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+          - generic [ref=e296]:
+            - generic [ref=e297]: NEW!
+            - generic [ref=e300]:
+              - link "View full product page for Reese's Peanut Buttery Creme Chocolate Sandwich Cookies, 2 Pack" [ref=e302] [cursor=pointer]:
+                - /url: /products/peanut-buttery-creme-chocolate-sandwich-cookies-2-pack
+                - img "Reese's Peanut Buttery Creme Chocolate Sandwich Cookies, 2 Pack" [ref=e307]
+              - generic [ref=e308]:
+                - generic [ref=e309]:
+                  - link [ref=e310] [cursor=pointer]:
+                    - /url: /products/peanut-buttery-creme-chocolate-sandwich-cookies-2-pack
+                    - generic [ref=e311]: Reese's Peanut Buttery Creme Chocolate Sandwich Cookies, 2 Pack
+                  - generic [ref=e312]: $10.00
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - button "Add Reese's Peanut Buttery Creme Chocolate Sandwich Cookies, 2 Pack to cart":
+                            - generic:
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+          - generic [ref=e315]:
+            - generic [ref=e316]: NEW!
+            - generic [ref=e319]:
+              - link "View full product page for Zero Sugar Chocolate Sandwich Cookies, Snack Packs, 2 Pack" [ref=e321] [cursor=pointer]:
+                - /url: /products/zero-sugar-chocolate-sandwich-cookies-2-pack
+                - img "Zero Sugar Chocolate Sandwich Cookies, Snack Packs, 2 Pack" [ref=e326]
+              - generic [ref=e327]:
+                - generic [ref=e328]:
+                  - link [ref=e329] [cursor=pointer]:
+                    - /url: /products/zero-sugar-chocolate-sandwich-cookies-2-pack
+                    - generic [ref=e330]: Zero Sugar Chocolate Sandwich Cookies, Snack Packs, 2 Pack
+                  - generic [ref=e331]: $10.00
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - button "Add Zero Sugar Chocolate Sandwich Cookies, Snack Packs, 2 Pack to cart":
+                            - generic:
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+          - generic [ref=e334]:
+            - generic [ref=e335]: NEW!
+            - generic [ref=e338]:
+              - link "View full product page for Zero Sugar Double Stuf Chocolate Sandwich Cookies, Snack Packs, 2 Pack" [ref=e340] [cursor=pointer]:
+                - /url: /products/zero-sugar-double-stuf-chocolate-sandwich-cookies-2-pack
+                - img "Zero Sugar Double Stuf Chocolate Sandwich Cookies, Snack Packs, 2 Pack" [ref=e345]
+              - generic [ref=e346]:
+                - generic [ref=e347]:
+                  - link [ref=e348] [cursor=pointer]:
+                    - /url: /products/zero-sugar-double-stuf-chocolate-sandwich-cookies-2-pack
+                    - generic [ref=e349]: Zero Sugar Double Stuf Chocolate Sandwich Cookies, Snack Packs, 2 Pack
+                  - generic [ref=e350]: $10.00
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - button "Add Zero Sugar Double Stuf Chocolate Sandwich Cookies, Snack Packs, 2 Pack to cart":
+                            - generic:
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+          - generic [ref=e353]:
+            - generic [ref=e354]: NEW!
+            - generic [ref=e357]:
+              - link "View full product page for Thins Chocolate Ganache Creme Sandwich Cookies, Family Size, 2 Pack" [ref=e359] [cursor=pointer]:
+                - /url: /products/thins-chocolate-ganache-creme-sandwich-cookies-family-size-2-pack
+                - img "Thins Chocolate Ganache Creme Sandwich Cookies, Family Size, 2 Pack" [ref=e364]
+              - generic [ref=e365]:
+                - generic [ref=e366]:
+                  - link [ref=e367] [cursor=pointer]:
+                    - /url: /products/thins-chocolate-ganache-creme-sandwich-cookies-family-size-2-pack
+                    - generic [ref=e368]: Thins Chocolate Ganache Creme Sandwich Cookies, Family Size, 2 Pack
+                  - generic [ref=e369]: $10.00
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - button "Add Thins Chocolate Ganache Creme Sandwich Cookies, Family Size, 2 Pack to cart":
+                            - generic:
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+      - generic [ref=e377]:
+        - img "Oreo Cookies" [ref=e381]
+        - generic [ref=e384]:
+          - generic [ref=e385]: Twist.
+          - generic [ref=e386]: Lick.
+          - generic [ref=e387]: Dunk.
+          - generic [ref=e388]: Twist.
+          - generic [ref=e389]: Lick.
+          - generic [ref=e390]: Dunk.
+          - generic [ref=e391]: Twist.
+          - generic [ref=e392]: Lick.
+          - generic [ref=e393]: Dunk.
+          - generic [ref=e394]: Twist.
+          - generic [ref=e395]: Lick.
+          - generic [ref=e396]: Dunk.
+          - generic [ref=e397]: Twist.
+          - generic [ref=e398]: Lick.
+          - generic [ref=e399]: Dunk.
+          - generic [ref=e400]: Twist.
+          - generic [ref=e401]: Lick.
+          - generic [ref=e402]: Dunk.
+          - generic [ref=e403]: Twist.
+          - generic [ref=e404]: Lick.
+          - generic [ref=e405]: Dunk.
+          - generic [ref=e406]: Twist.
+          - generic [ref=e407]: Lick.
+          - generic [ref=e408]: Dunk.
+      - generic [ref=e416]:
+        - link [ref=e418] [cursor=pointer]:
+          - /url: /build-your-bundle
+          - generic [ref=e419]:
+            - generic [ref=e420]:
+              - generic:
+                - generic:
+                  - img "Build Your Bundle of OREO Cookies and save"
+            - paragraph [ref=e421]: Build Your Bundle and Save
+        - link [ref=e423] [cursor=pointer]:
+          - /url: /collections/celebrations
+          - generic [ref=e424]:
+            - generic [ref=e425]:
+              - generic:
+                - generic:
+                  - img "OREO Custom Cookies Boxes"
+            - paragraph [ref=e426]: Ready-to-gift Boxes
+        - link [ref=e428] [cursor=pointer]:
+          - /url: /collections/merch
+          - generic [ref=e429]:
+            - generic [ref=e430]:
+              - generic:
+                - generic:
+                  - img "Woman wearing an OREO Cookie sweater"
+            - paragraph [ref=e431]: OREO Merch
+      - generic [ref=e440]:
+        - generic [ref=e442]:
+          - generic [ref=e443]: NEW!
+          - generic [ref=e446]:
+            - link "View full product page for OREOiD Special Edition Star Wars™ 12ct" [ref=e448] [cursor=pointer]:
+              - /url: /products/oreoid-star-wars
+              - img "OREOiD Special Edition Star Wars™ 12ct" [ref=e453]
+            - generic [ref=e454]:
+              - generic [ref=e455]:
+                - link [ref=e456] [cursor=pointer]:
+                  - /url: /products/oreoid-star-wars
+                  - generic [ref=e457]: OREOiD Special Edition Star Wars™ 12ct
+                - generic [ref=e458]: $42.99
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button "Add OREOiD Special Edition Star Wars™ 12ct to cart":
+                          - generic:
+                            - generic: Add to Cart
+                            - generic: Add to Cart
+                            - generic: Add to Cart
+        - generic [ref=e461]:
+          - generic [ref=e462]: NEW!
+          - generic [ref=e465]:
+            - link "View full product page for OREOiD Disney Zootopia Edition Cookie Box - 6ct" [ref=e467] [cursor=pointer]:
+              - /url: /products/oreoid-zootopia-cookie-box-6ct
+              - img "OREOiD Disney Zootopia Edition Cookie Box - 6ct" [ref=e472]
+            - generic [ref=e473]:
+              - generic [ref=e474]:
+                - link [ref=e475] [cursor=pointer]:
+                  - /url: /products/oreoid-zootopia-cookie-box-6ct
+                  - generic [ref=e476]: OREOiD Disney Zootopia Edition Cookie Box - 6ct
+                - generic [ref=e477]: $29.99
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button "Add OREOiD Disney Zootopia Edition Cookie Box - 6ct to cart":
+                          - generic:
+                            - generic: Add to Cart
+                            - generic: Add to Cart
+                            - generic: Add to Cart
+        - generic [ref=e481]:
+          - link "View full product page for OREOiD Mickey & Friends - 12ct" [ref=e483] [cursor=pointer]:
+            - /url: /products/oreoid-mickey-friends-12ct-box
+            - img "OREOiD Mickey & Friends - 12ct" [ref=e488]
+          - generic [ref=e489]:
+            - generic [ref=e490]:
+              - link [ref=e491] [cursor=pointer]:
+                - /url: /products/oreoid-mickey-friends-12ct-box
+                - generic [ref=e492]: OREOiD Mickey & Friends - 12ct
+              - generic [ref=e493]: $42.99
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Add OREOiD Mickey & Friends - 12ct to cart":
+                        - generic:
+                          - generic: Add to Cart
+                          - generic: Add to Cart
+                          - generic: Add to Cart
+        - generic [ref=e497]:
+          - link "View full product page for OREOiD Disney Princess Edition - 12ct" [ref=e499] [cursor=pointer]:
+            - /url: /products/oreoid-disney-princess-edition-12ct-box
+            - img "OREOiD Disney Princess Edition - 12ct" [ref=e504]
+          - generic [ref=e505]:
+            - generic [ref=e506]:
+              - link [ref=e507] [cursor=pointer]:
+                - /url: /products/oreoid-disney-princess-edition-12ct-box
+                - generic [ref=e508]: OREOiD Disney Princess Edition - 12ct
+              - generic [ref=e509]: $42.99
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Add OREOiD Disney Princess Edition - 12ct to cart":
+                        - generic:
+                          - generic: Add to Cart
+                          - generic: Add to Cart
+                          - generic: Add to Cart
+        - generic [ref=e513]:
+          - link "View full product page for OREOiD Disney Princess Snow White - 6ct" [ref=e515] [cursor=pointer]:
+            - /url: /products/oreoid-disney-princess-snow-white-6ct
+            - img "OREOiD Disney Princess Snow White - 6ct" [ref=e520]
+          - generic [ref=e521]:
+            - generic [ref=e522]:
+              - link [ref=e523] [cursor=pointer]:
+                - /url: /products/oreoid-disney-princess-snow-white-6ct
+                - generic [ref=e524]: OREOiD Disney Princess Snow White - 6ct
+              - generic [ref=e525]: $29.99
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Add OREOiD Disney Princess Snow White - 6ct to cart":
+                        - generic:
+                          - generic: Add to Cart
+                          - generic: Add to Cart
+                          - generic: Add to Cart
+        - generic [ref=e529]:
+          - link "View full product page for OREOiD Disney Princess Edition - 6ct" [ref=e531] [cursor=pointer]:
+            - /url: /products/oreoid-disney-princess-edition-6ct-box
+            - img "OREOiD Disney Princess Edition - 6ct" [ref=e536]
+          - generic [ref=e537]:
+            - generic [ref=e538]:
+              - link [ref=e539] [cursor=pointer]:
+                - /url: /products/oreoid-disney-princess-edition-6ct-box
+                - generic [ref=e540]: OREOiD Disney Princess Edition - 6ct
+              - generic [ref=e541]: $29.99
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - button "Add OREOiD Disney Princess Edition - 6ct to cart":
+                        - generic:
+                          - generic: Add to Cart
+                          - generic: Add to Cart
+                          - generic: Add to Cart
+      - generic [ref=e548]:
+        - heading "Stock Up" [level=2] [ref=e549]
+        - heading "on your faves" [level=3] [ref=e550]
+        - generic [ref=e553]:
+          - generic [ref=e555]:
+            - img "Build Your Own OREO Cookie Bundle" [ref=e557]
+            - link "Build Your Bundle" [ref=e559] [cursor=pointer]:
+              - /url: https://www.oreo.com/build-your-bundle
+              - generic [ref=e560]:
+                - generic: Build Your Bundle
+                - generic [ref=e561]: Build Your Bundle
+                - generic [ref=e563]: Build Your Bundle
+          - generic [ref=e567]:
+            - generic [ref=e568]: NEW!
+            - generic [ref=e571]:
+              - link "View full product page for Thins Bundle" [ref=e573] [cursor=pointer]:
+                - /url: /products/thins-bundle
+                - img "Thins Bundle" [ref=e578]
+              - generic [ref=e579]:
+                - generic [ref=e580]:
+                  - link [ref=e581] [cursor=pointer]:
+                    - /url: /products/thins-bundle
+                    - generic [ref=e582]: Thins Bundle
+                  - generic [ref=e583]: $18.00
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - button "Add Thins Bundle to cart":
+                            - generic:
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+                              - generic: Add to Cart
+          - generic [ref=e587]:
+            - link "View full product page for Golden Cakesters Soft Snack Cakes, Snack Packs, 2 Pack" [ref=e589] [cursor=pointer]:
+              - /url: /products/golden-cakesters-soft-snack-cakes-snack-packs-2-count
+              - img "Golden Cakesters Soft Snack Cakes, Snack Packs, 2 Pack" [ref=e594]
+            - generic [ref=e595]:
+              - generic [ref=e596]:
+                - link [ref=e597] [cursor=pointer]:
+                  - /url: /products/golden-cakesters-soft-snack-cakes-snack-packs-2-count
+                  - generic [ref=e598]: Golden Cakesters Soft Snack Cakes, Snack Packs, 2 Pack
+                - generic [ref=e599]: $10.00
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button "Add Golden Cakesters Soft Snack Cakes, Snack Packs, 2 Pack to cart":
+                          - generic:
+                            - generic: Add to Cart
+                            - generic: Add to Cart
+                            - generic: Add to Cart
+          - generic [ref=e603]:
+            - link "View full product page for Cakesters Double Chocolate Soft Snack Cakes, Snack Packs, 2 Pack" [ref=e605] [cursor=pointer]:
+              - /url: /products/cakesters-double-chocolate-soft-snack-cakes-snack-packs-2-count
+              - img "Cakesters Double Chocolate Soft Snack Cakes, Snack Packs, 2 Pack" [ref=e610]
+            - generic [ref=e611]:
+              - generic [ref=e612]:
+                - link [ref=e613] [cursor=pointer]:
+                  - /url: /products/cakesters-double-chocolate-soft-snack-cakes-snack-packs-2-count
+                  - generic [ref=e614]: Cakesters Double Chocolate Soft Snack Cakes, Snack Packs, 2 Pack
+                - generic [ref=e615]: $10.00
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button "Add Cakesters Double Chocolate Soft Snack Cakes, Snack Packs, 2 Pack to cart":
+                          - generic:
+                            - generic: Add to Cart
+                            - generic: Add to Cart
+                            - generic: Add to Cart
+      - generic [ref=e622]:
+        - img "Cupcake" [ref=e625]
+        - generic [ref=e629]:
+          - heading "Get Inspired" [level=2] [ref=e630]
+          - paragraph [ref=e631]: Endless possibilities for every occasion.
+          - link "Recipes" [ref=e633] [cursor=pointer]:
+            - /url: /recipe
+            - generic [ref=e634]:
+              - generic: Recipes
+              - generic [ref=e635]: Recipes
+              - generic [ref=e637]: Recipes
+          - paragraph
+      - generic [ref=e647]:
+        - heading "Real Or Fake?!" [level=2] [ref=e649]
+        - generic:
+          - generic:
+            - generic [ref=e651] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "Green Elixir Pack Image"
+                  - generic:
+                    - paragraph: OREO Green Elixir
+            - generic [ref=e654] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "Bubblegum OREO Pack"
+                  - generic:
+                    - paragraph: OREO Bubblegum
+            - generic [ref=e657] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "OREO Fruity Crisp Cookies"
+                  - generic:
+                    - paragraph: OREO Fruity Crisp
+            - generic [ref=e660] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "OREO Easy Cheese Pack Image"
+                  - generic:
+                    - paragraph: OREO Easy Cheese
+            - generic [ref=e663] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "OREO Cotton Candy Cookies"
+                  - generic:
+                    - paragraph: OREO Cotton Candy
+            - generic [ref=e666] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "matcha real or fake packaging"
+                  - generic:
+                    - paragraph: OREO Matcha
+            - generic [ref=e669] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "OREO S’mOREO Cookies"
+                  - generic:
+                    - paragraph: OREO S’mOREO
+            - generic [ref=e672] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "OREO Cinnamon Bun Cookies"
+                  - generic:
+                    - paragraph: OREO Cinnamon Bun
+            - generic [ref=e675] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "OREO Just the Creme Pack Image"
+                  - generic:
+                    - paragraph: OREO Just the Creme
+            - generic [ref=e678] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "OREO Hot Cocoa Cookies"
+                  - generic:
+                    - paragraph: OREO Hot Cocoa
+            - generic [ref=e681] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "OREO Lavender Creme Pack"
+                  - generic:
+                    - paragraph: OREO Lavender
+            - generic [ref=e684] [cursor=pointer]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "OREO Just the Wafer Pack"
+                  - generic:
+                    - paragraph: OREO Just the Wafer
+        - paragraph [ref=e688]: Think you know OREO cookie flavors?Drag left for fake, right for real!
+        - generic:
+          - generic:
+            - generic:
+              - paragraph:
+                - generic: Too wild
+                - generic: to be true
+        - generic:
+          - generic:
+            - generic:
+              - paragraph:
+                - generic: Yep this
+                - generic: one's Real!
+      - generic [ref=e697]:
+        - generic:
+          - generic:
+            - generic:
+              - img "OREO Hot Cocoa Cookies"
+        - generic:
+          - generic:
+            - generic:
+              - img "OREO Snickerdoodle Cookies"
+        - generic:
+          - generic:
+            - generic:
+              - img "OREO Maple Creme"
+        - generic:
+          - generic:
+            - generic:
+              - img "Carrot Cake Cookies"
+        - generic:
+          - generic:
+            - generic:
+              - img "OREO Churro Flavor Cookies"
+        - generic:
+          - generic:
+            - generic:
+              - img "Social Video 1"
+            - generic "Social Video 1"
+            - button "Play"
+        - generic:
+          - generic:
+            - generic:
+              - img "Social Video 2"
+            - generic "Social Video 2"
+            - button "Play"
+        - generic:
+          - generic:
+            - generic:
+              - img "Social Video 3"
+            - generic "Social Video 3"
+            - button "Play"
+        - generic [ref=e741]:
+          - heading "Enter the OREOVERSE" [level=2] [ref=e742]:
+            - generic [ref=e743]: Enter the
+            - generic [ref=e744]: OREOVERSE
+          - paragraph [ref=e745]: The OREO brand's past, present, and future - all in one twisted place.
+          - link "ENTER THE OREOVERSE" [ref=e746] [cursor=pointer]:
+            - /url: /oreoverse
+            - generic [ref=e747]:
+              - generic: ENTER THE OREOVERSE
+              - generic [ref=e748]: ENTER THE OREOVERSE
+              - generic [ref=e750]: ENTER THE OREOVERSE
+      - generic [ref=e766]:
+        - heading "Join the OREO Dunk Club" [level=3]
+        - paragraph: Sign up today to get 15% off & be the first to hear about exclusive offers, news, and more!
+        - button "Sign Up" [ref=e767] [cursor=pointer]:
+          - generic [ref=e768]:
+            - generic: Sign Up
+            - generic [ref=e769]: Sign Up
+            - generic [ref=e771]: Sign Up
+      - generic [ref=e775]:
+        - generic [ref=e777]:
+          - paragraph [ref=e778]: OREO Brand’s Fav Foodie Creators
+          - heading "Meet The Makers" [level=2] [ref=e779]
+        - generic [ref=e781]:
+          - generic [ref=e783]:
+            - generic [ref=e784]:
+              - generic:
+                - generic:
+                  - img "Instagram"
+            - generic [ref=e785]: 3.7M Followers
+          - generic [ref=e787]:
+            - generic [ref=e788]:
+              - generic:
+                - generic:
+                  - img "TikTok"
+            - generic [ref=e789]: 2.2M Followers
+          - generic [ref=e791]:
+            - generic [ref=e792]:
+              - generic:
+                - generic:
+                  - img "Facebook"
+            - generic [ref=e793]: 39M Likes
+          - generic [ref=e795]:
+            - generic [ref=e796]:
+              - generic:
+                - generic:
+                  - img "Youtube"
+            - generic [ref=e797]: 842K Subscribers
+          - generic [ref=e799]:
+            - generic [ref=e800]:
+              - generic:
+                - generic:
+                  - img "Instagram"
+            - generic [ref=e801]: 3.7M Followers
+          - generic [ref=e803]:
+            - generic [ref=e804]:
+              - generic:
+                - generic:
+                  - img "Instagram"
+            - generic [ref=e805]: 3.7M Followers
+          - generic [ref=e807]:
+            - generic [ref=e808]:
+              - generic:
+                - generic:
+                  - img "TikTok"
+            - generic [ref=e809]: 2.2M Followers
+          - generic [ref=e811]:
+            - generic [ref=e812]:
+              - generic:
+                - generic:
+                  - img "Facebook"
+            - generic [ref=e813]: 39M Likes
+          - generic [ref=e815]:
+            - generic [ref=e816]:
+              - generic:
+                - generic:
+                  - img "Youtube"
+            - generic [ref=e817]: 842K Subscribers
+          - generic [ref=e819]:
+            - generic [ref=e820]:
+              - generic:
+                - generic:
+                  - img "Instagram"
+            - generic [ref=e821]: 3.7M Followers
+  - contentinfo [ref=e822]:
+    - generic [ref=e824]:
+      - generic [ref=e825]:
+        - generic [ref=e826]:
+          - generic [ref=e827]: SIGN UP.
+          - generic [ref=e828]: SNACK MORE.
+          - text: SAVE 15%
+        - button "Open Dunk Club registration modal" [ref=e829] [cursor=pointer]:
+          - generic [ref=e831]:
+            - generic [ref=e832]: JOIN DUNK CLUB
+            - generic [ref=e833]: JOIN DUNK CLUB
+      - generic [ref=e835]:
+        - generic [ref=e836]:
+          - paragraph [ref=e837]: Shop
+          - list [ref=e838]:
+            - listitem [ref=e840]:
+              - generic [ref=e841]:
+                - link "Shop All" [ref=e843] [cursor=pointer]:
+                  - /url: /collections/all
+                - link [ref=e845] [cursor=pointer]:
+                  - /url: /collections/all
+                  - text: Shop All
+            - listitem [ref=e847]:
+              - generic [ref=e848]:
+                - link "OREOiD" [ref=e850] [cursor=pointer]:
+                  - /url: /oreoid
+                - link [ref=e852] [cursor=pointer]:
+                  - /url: /oreoid
+                  - text: OREOiD
+            - listitem [ref=e854]:
+              - generic [ref=e855]:
+                - link "Merch" [ref=e857] [cursor=pointer]:
+                  - /url: /collections/merch
+                - link [ref=e859] [cursor=pointer]:
+                  - /url: /collections/merch
+                  - text: Merch
+            - listitem [ref=e861]:
+              - generic [ref=e862]:
+                - link "Bundles" [ref=e864] [cursor=pointer]:
+                  - /url: /build-your-bundle
+                - link [ref=e866] [cursor=pointer]:
+                  - /url: /build-your-bundle
+                  - text: Bundles
+            - listitem [ref=e868]:
+              - generic [ref=e869]:
+                - link "Corporate Gifting" [ref=e871] [cursor=pointer]:
+                  - /url: /corporate-gifting
+                - link [ref=e873] [cursor=pointer]:
+                  - /url: /corporate-gifting
+                  - text: Corporate Gifting
+        - generic [ref=e874]:
+          - paragraph [ref=e875]: Discover
+          - list [ref=e876]:
+            - listitem [ref=e878]:
+              - generic [ref=e879]:
+                - link "Recipes" [ref=e881] [cursor=pointer]:
+                  - /url: /recipe
+                - link [ref=e883] [cursor=pointer]:
+                  - /url: /recipe
+                  - text: Recipes
+            - listitem [ref=e885]:
+              - generic [ref=e886]:
+                - link "OREOverse" [ref=e888] [cursor=pointer]:
+                  - /url: /oreoverse
+                - link [ref=e890] [cursor=pointer]:
+                  - /url: /oreoverse
+                  - text: OREOverse
+            - listitem [ref=e892]:
+              - generic [ref=e893]:
+                - link "Dunk Club" [ref=e895] [cursor=pointer]:
+                  - /url: /dunk-club
+                - link [ref=e897] [cursor=pointer]:
+                  - /url: /dunk-club
+                  - text: Dunk Club
+        - generic [ref=e898]:
+          - paragraph [ref=e899]: Other
+          - list [ref=e900]:
+            - listitem [ref=e902]:
+              - generic [ref=e903]:
+                - link "FAQs" [ref=e905] [cursor=pointer]:
+                  - /url: /faq
+                - link [ref=e907] [cursor=pointer]:
+                  - /url: /faq
+                  - text: FAQs
+            - listitem [ref=e909]:
+              - generic [ref=e910]:
+                - link "Contact" [ref=e912] [cursor=pointer]:
+                  - /url: /contact
+                - link [ref=e914] [cursor=pointer]:
+                  - /url: /contact
+                  - text: Contact
+            - listitem [ref=e916]:
+              - generic [ref=e917]:
+                - link "Order Status" [ref=e919] [cursor=pointer]:
+                  - /url: /account
+                - link [ref=e921] [cursor=pointer]:
+                  - /url: /account
+                  - text: Order Status
+            - listitem [ref=e923]:
+              - generic [ref=e924]:
+                - link "Shipping" [ref=e926] [cursor=pointer]:
+                  - /url: /pages/shipping
+                - link [ref=e928] [cursor=pointer]:
+                  - /url: /pages/shipping
+                  - text: Shipping
+            - listitem [ref=e930]:
+              - generic [ref=e931]:
+                - link "Promotional Terms & Conditions" [ref=e933] [cursor=pointer]:
+                  - /url: /promotion-terms-and-condition
+                - link [ref=e935] [cursor=pointer]:
+                  - /url: /promotion-terms-and-condition
+                  - text: Promotional Terms & Conditions
+            - listitem [ref=e937]:
+              - generic [ref=e938]:
+                - link "OREO for foodservice" [ref=e940] [cursor=pointer]:
+                  - /url: https://www.mondelezinternationalfoodservice.com/brands/oreo/Brand=OREO/
+                - link [ref=e942] [cursor=pointer]:
+                  - /url: https://www.mondelezinternationalfoodservice.com/brands/oreo/Brand=OREO/
+                  - text: OREO for foodservice
+    - generic [ref=e943]:
+      - generic [ref=e946]:
+        - generic [ref=e947]:
+          - heading "DUNK IT LOW... WATCH IT GO!" [level=3] [ref=e948]
+          - heading "Click & Drag cookie to release" [level=4] [ref=e949]
+        - img "Oreo Cookies" [ref=e953]
+        - button "Return to top" [ref=e955] [cursor=pointer]:
+          - img "up" [ref=e960]
+      - generic [ref=e970]:
+        - generic [ref=e971]:
+          - generic [ref=e972]:
+            - img "Oreo Cookie" [ref=e975]
+            - paragraph [ref=e977]: Stay Playful
+          - paragraph [ref=e978]: © 2026 Mondelēz International. All Rights reserved.
+        - generic [ref=e979]:
+          - link "Promotional Terms & Conditions" [ref=e981] [cursor=pointer]:
+            - /url: /promotion-terms-and-condition
+          - link "Terms & Conditions" [ref=e983] [cursor=pointer]:
+            - /url: /terms-and-conditions
+          - link "Privacy Policy" [ref=e985] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Cookie Policy" [ref=e987] [cursor=pointer]:
+            - /url: /cookie-policy
+          - link "Accessibility" [ref=e989] [cursor=pointer]:
+            - /url: /accessibility
+          - link "Do not sell or share my info" [ref=e991] [cursor=pointer]:
+            - /url: https://privacyportal-de.onetrust.com/webform/f69c0bf1-10ab-4d33-8b59-e235ddd37a5f/7a2f2bed-306f-435a-a03a-8c96123f538e
+          - button "COOKIE SETTINGS" [ref=e992] [cursor=pointer]

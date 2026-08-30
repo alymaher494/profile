@@ -41,14 +41,23 @@ export function Circuitry() {
               <span className="absolute -left-[27px] top-1.5 h-2.5 w-2.5 rounded-full bg-void ring-1 ring-signal sm:-left-[43px]" />
               <div className="flex flex-wrap items-baseline gap-3">
                 <span className="coord">CS.{p.index}</span>
-                <a
-                  href={p.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-display text-lg font-medium text-ink transition-colors hover:text-signal"
-                >
-                  {p.title}
-                </a>
+                {p.url && p.url !== "#" ? (
+                  <a
+                    href={p.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-display text-lg font-medium text-ink transition-colors hover:text-signal"
+                  >
+                    {p.title}
+                  </a>
+                ) : (
+                  <div className="flex items-baseline">
+                    <span className="font-display text-lg font-medium text-ink">{p.title}</span>
+                    <span className="border border-line px-2 py-0.5 font-mono text-[9px] uppercase tracking-widest2 text-muted ml-2">
+                      Private / In Progress
+                    </span>
+                  </div>
+                )}
                 <span className="font-mono text-[10px] uppercase tracking-widest2 text-signal-dim">
                   {p.domain}
                 </span>

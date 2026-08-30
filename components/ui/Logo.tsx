@@ -1,13 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
+import { cdnLoader } from "@/lib/imageLoader";
 import { PROFILE } from "@/lib/data";
 
-/**
- * Logo — renders /public/logo.png when present, otherwise falls back to the
- * text mark. Drop your image at public/logo.png (or tell me the filename and
- * I'll point it here).
- */
 export function Logo({ className = "" }: { className?: string }) {
   const [err, setErr] = useState(false);
 
@@ -23,10 +20,12 @@ export function Logo({ className = "" }: { className?: string }) {
   }
 
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
+    <Image
       src="/logo.png"
       alt={`${PROFILE.name} logo`}
+      width={180}
+      height={40}
+      loader={cdnLoader}
       onError={() => setErr(true)}
       className={className}
     />

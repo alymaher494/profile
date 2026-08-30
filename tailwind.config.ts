@@ -46,6 +46,7 @@ const config: Config = {
       },
       animation: {
         "signal-pulse": "signal-pulse 3.2s ease-in-out infinite",
+        "grid-drift": "grid-drift 12s linear infinite",
       },
     },
   },

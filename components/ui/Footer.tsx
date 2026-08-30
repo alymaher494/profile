@@ -3,10 +3,11 @@ import { PROFILE } from "@/lib/data";
 import { Logo } from "@/components/ui/Logo";
 
 const NODES = [
-  { href: "/work", coord: "01", label: "Selected Work", desc: "Live client systems — the evidence ledger." },
-  { href: "/capabilities", coord: "02", label: "Capabilities", desc: "Four engineering domains, from headless web to infra." },
+  { href: "/work", coord: "01", label: "Projects", desc: "Live client systems — the evidence ledger." },
+  { href: "/capabilities", coord: "02", label: "Services", desc: "Four engineering domains, from headless web to infra." },
   { href: "/case-studies", coord: "03", label: "Case Studies", desc: "Architecture, contracts, and decisions behind the builds." },
-  { href: "/contact", coord: "04", label: "Contact", desc: "Freelance, remote, or a technical conversation." },
+  { href: "/pricing", coord: "05", label: "Pricing", desc: "Transparent project tiers." },
+  { href: "/contact", coord: "06", label: "Contact", desc: "Freelance, remote, or a technical conversation." },
 ];
 
 export function Footer() {
@@ -16,7 +17,7 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-signal" />
-            <Logo className="h-5 w-auto" />
+            <Logo className="h-8 w-auto" />
           </div>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
             {PROFILE.role}

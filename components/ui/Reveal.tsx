@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { revealUp } from "@/lib/motion";
 import { useMounted } from "@/lib/useMounted";
 import { useMotionPref } from "@/components/providers/MotionProvider";
@@ -12,6 +12,10 @@ interface RevealProps {
   delay?: number;
   className?: string;
   as?: "div" | "section" | "li" | "span";
+  /** enable scroll-driven parallax on the y-axis */
+  parallax?: boolean;
+  /** total pixel distance to translate over one viewport height of scroll */
+  parallaxDistance?: number;
 }
 
 /**
@@ -28,15 +32,30 @@ export function Reveal({
   delay = 0,
   className,
   as = "div",
+  parallax = false,
+  parallaxDistance = -50,
 }: RevealProps) {
   const motionOn = useMotionPref();
   const mounted = useMounted();
   const MotionTag = motion[as] as typeof motion.div;
   const Tag = as as "div";
 
+  const { scrollY } = useScroll();
+  const parallaxY = useTransform(
+    scrollY,
+    [0, window.innerHeight],
+    [0, parallaxDistance]
+  );
+
   if (!mounted || !motionOn) {
     return <Tag className={className}>{children}</Tag>;
   }
+
+  const inner = parallax ? (
+    <motion.div style={{ y: parallaxY }}>{children}</motion.div>
+  ) : (
+    children
+  );
 
   return (
     <MotionTag
@@ -46,7 +65,7 @@ export function Reveal({
       whileInView="show"
       viewport={{ once: true, margin: "-12% 0px -12% 0px" }}
     >
-      {children}
+      {inner}
     </MotionTag>
   );
 }

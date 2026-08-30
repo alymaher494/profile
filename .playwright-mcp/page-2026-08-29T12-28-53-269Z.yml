@@ -1,0 +1,290 @@
+- generic [active] [ref=f5e1]:
+  - banner [ref=f5e2]:
+    - navigation [ref=f5e3]:
+      - link [ref=f5e4] [cursor=pointer]:
+        - /url: /
+        - img "Aly Maher logo" [ref=f5e6]
+      - list [ref=f5e7]:
+        - listitem [ref=f5e8]:
+          - link "00 Core" [ref=f5e9] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f5e10]: "00"
+            - text: Core
+        - listitem [ref=f5e11]:
+          - link "01 Work" [ref=f5e12] [cursor=pointer]:
+            - /url: /work
+            - generic [ref=f5e13]: "01"
+            - text: Work
+        - listitem [ref=f5e14]:
+          - link "02 Capabilities" [ref=f5e15] [cursor=pointer]:
+            - /url: /capabilities
+            - generic [ref=f5e16]: "02"
+            - text: Capabilities
+        - listitem [ref=f5e17]:
+          - link "03 Case Studies" [ref=f5e18] [cursor=pointer]:
+            - /url: /case-studies
+            - generic [ref=f5e19]: "03"
+            - text: Case Studies
+        - listitem [ref=f5e20]:
+          - link "04 Contact" [ref=f5e21] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=f5e22]: "04"
+            - text: Contact
+      - generic [ref=f5e23]:
+        - button "Motion" [pressed] [ref=f5e24] [cursor=pointer]
+        - link "Start" [ref=f5e28] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f5e30]:
+    - generic [ref=f5e32]:
+      - generic [ref=f5e33]:
+        - generic [ref=f5e34]: "[01"
+        - generic [ref=f5e36]: EVIDENCE
+        - generic [ref=f5e37]: "]"
+      - generic [ref=f5e38]:
+        - heading "Selected Work" [level=2] [ref=f5e39]
+        - paragraph [ref=f5e40]: "Not a gallery — an evidence ledger. Each system below proves a specific capability. Together they show range: from payments and commerce to AI and multi-tenant infrastructure."
+      - generic [ref=f5e41]:
+        - generic [ref=f5e42]:
+          - generic [ref=f5e43]:
+            - generic [ref=f5e44]: PRJ.01
+            - generic [ref=f5e45]:
+              - generic [ref=f5e46]: SA
+              - text: Live
+          - link "Professional Business Center ↗" [ref=f5e47] [cursor=pointer]:
+            - /url: https://pbc-ksa.com
+          - generic [ref=f5e48]:
+            - generic [ref=f5e49]: PBC — KSA · 2026
+            - generic [ref=f5e50]: /
+            - generic [ref=f5e51]: 2 service tracks
+          - paragraph [ref=f5e52]: A digital agency platform that builds e-commerce stores and industrial-company marketing presences — from identity to deployed site.
+          - generic [ref=f5e53]:
+            - generic [ref=f5e54]: WordPress
+            - generic [ref=f5e55]: E-commerce
+            - generic [ref=f5e56]: Frontend
+          - generic [ref=f5e57]:
+            - generic [ref=f5e58]: WordPress · Elementor · Hub Theme …
+            - link "Visit ↗" [ref=f5e59] [cursor=pointer]:
+              - /url: https://pbc-ksa.com
+        - generic [ref=f5e60]:
+          - generic [ref=f5e61]:
+            - generic [ref=f5e62]: PRJ.02
+            - generic [ref=f5e63]:
+              - generic [ref=f5e64]: SA
+              - text: Live
+          - link "Emaar Land ↗" [ref=f5e65] [cursor=pointer]:
+            - /url: https://emaar.sa
+          - generic [ref=f5e66]:
+            - generic [ref=f5e67]: Emaar Land — KSA · 2026
+            - generic [ref=f5e68]: /
+            - generic [ref=f5e69]: RTL bilingual build
+          - paragraph [ref=f5e70]: A bilingual RTL real-estate site for a Saudi land-development company, engineered for clarity and fast content publishing.
+          - generic [ref=f5e71]:
+            - generic [ref=f5e72]: WordPress
+            - generic [ref=f5e73]: Frontend
+          - generic [ref=f5e74]:
+            - generic [ref=f5e75]: WordPress · Bricks · LiteSpeed …
+            - link "Visit ↗" [ref=f5e76] [cursor=pointer]:
+              - /url: https://emaar.sa
+        - generic [ref=f5e77]:
+          - generic [ref=f5e78]:
+            - generic [ref=f5e79]: PRJ.03
+            - generic [ref=f5e80]:
+              - generic [ref=f5e81]: DE
+              - text: Live
+          - link "4D Für Dich ↗" [ref=f5e82] [cursor=pointer]:
+            - /url: https://4d4dich.de
+          - generic [ref=f5e83]:
+            - generic [ref=f5e84]: 4D Für Dich — DE · 2025
+            - generic [ref=f5e85]: /
+            - generic [ref=f5e86]: 98 Lighthouse perf
+          - paragraph [ref=f5e87]: A modern production website for a German design/production brand, with editorial motion and a structured content model.
+          - generic [ref=f5e88]: Frontend
+          - generic [ref=f5e90]:
+            - generic [ref=f5e91]: Next.js · Tailwind · Vercel
+            - link "Visit ↗" [ref=f5e92] [cursor=pointer]:
+              - /url: https://4d4dich.de
+        - generic [ref=f5e93]:
+          - generic [ref=f5e94]:
+            - generic [ref=f5e95]: PRJ.04
+            - generic [ref=f5e96]:
+              - generic [ref=f5e97]: DE
+              - text: Live
+          - link "Pizza by Hira ↗" [ref=f5e98] [cursor=pointer]:
+            - /url: https://pizzahira-dingolfing.de
+          - generic [ref=f5e99]:
+            - generic [ref=f5e100]: Pizza by Hira — DE · 2026
+            - generic [ref=f5e101]: /
+            - generic [ref=f5e102]: 24/7 order flow
+          - paragraph [ref=f5e103]: An online ordering site for a German restaurant — menu, pickup/delivery flows, and conversion-focused layout.
+          - generic [ref=f5e104]:
+            - generic [ref=f5e105]: WordPress
+            - generic [ref=f5e106]: E-commerce
+          - generic [ref=f5e107]:
+            - generic [ref=f5e108]: WordPress · WooCommerce · LiteSpeed
+            - link "Visit ↗" [ref=f5e109] [cursor=pointer]:
+              - /url: https://pizzahira-dingolfing.de
+        - generic [ref=f5e110]:
+          - generic [ref=f5e111]:
+            - generic [ref=f5e112]: PRJ.05
+            - generic [ref=f5e113]:
+              - generic [ref=f5e114]: DE
+              - text: Live
+          - link "Fitness Total ↗" [ref=f5e115] [cursor=pointer]:
+            - /url: https://fitnesstotal-schoeneck.de
+          - generic [ref=f5e116]:
+            - generic [ref=f5e117]: Fitness Total — DE · 2025
+            - generic [ref=f5e118]: /
+            - generic [ref=f5e119]: Astra performance theme
+          - paragraph [ref=f5e120]: A marketing site for a German fitness studio, built to convert visitors into members with clear offers and fast load.
+          - generic [ref=f5e121]:
+            - generic [ref=f5e122]: WordPress
+            - generic [ref=f5e123]: Frontend
+          - generic [ref=f5e124]:
+            - generic [ref=f5e125]: WordPress · Astra · LiteSpeed
+            - link "Visit ↗" [ref=f5e126] [cursor=pointer]:
+              - /url: https://fitnesstotal-schoeneck.de
+        - generic [ref=f5e127]:
+          - generic [ref=f5e128]:
+            - generic [ref=f5e129]: PRJ.06
+            - generic [ref=f5e130]:
+              - generic [ref=f5e131]: INT
+              - text: Live
+          - link "Super Marketer ↗" [ref=f5e132] [cursor=pointer]:
+            - /url: https://supermarketer.net
+          - generic [ref=f5e133]:
+            - generic [ref=f5e134]: Super Marketer — INT · 2026
+            - generic [ref=f5e135]: /
+            - generic [ref=f5e136]: AI regional expertise
+          - paragraph [ref=f5e137]: A regional real-estate marketing platform with AI-assisted expertise positioning, built as a custom Next.js application.
+          - generic [ref=f5e138]:
+            - generic [ref=f5e139]: Frontend
+            - generic [ref=f5e140]: AI
+          - generic [ref=f5e141]:
+            - generic [ref=f5e142]: Next.js · Tailwind · AI
+            - link "Visit ↗" [ref=f5e143] [cursor=pointer]:
+              - /url: https://supermarketer.net
+        - generic [ref=f5e144]:
+          - generic [ref=f5e145]:
+            - generic [ref=f5e146]: PRJ.07
+            - generic [ref=f5e147]:
+              - generic [ref=f5e148]: SA
+              - text: Live
+          - link "MTGAR — Digital Growth Agency ↗" [ref=f5e149] [cursor=pointer]:
+            - /url: https://landing.mtgar.com
+          - generic [ref=f5e150]:
+            - generic [ref=f5e151]: MTGAR — KSA · 2026
+            - generic [ref=f5e152]: /
+            - generic [ref=f5e153]: RTL agency storefront
+          - paragraph [ref=f5e154]: A digital-growth agency storefront (Arabic RTL) presenting performance marketing and digital experiences.
+          - generic [ref=f5e155]:
+            - generic [ref=f5e156]: Frontend
+            - generic [ref=f5e157]: Integrations
+          - generic [ref=f5e158]:
+            - generic [ref=f5e159]: React · Vite · Tailwind
+            - link "Visit ↗" [ref=f5e160] [cursor=pointer]:
+              - /url: https://landing.mtgar.com
+    - generic [ref=f5e162]:
+      - generic [ref=f5e163]:
+        - generic [ref=f5e164]: "[01"
+        - generic [ref=f5e166]: SHOTS
+        - generic [ref=f5e167]: "]"
+      - generic [ref=f5e168]:
+        - heading "Live captures" [level=2] [ref=f5e169]
+        - paragraph [ref=f5e170]: Screenshots of the running systems. Drop real captures at /public/work/<id>.png to replace the placeholders.
+      - generic [ref=f5e171]:
+        - link "Professional Business Center — screenshot PRJ.01 Professional Business Center ↗" [ref=f5e173] [cursor=pointer]:
+          - /url: https://pbc-ksa.com
+          - img "Professional Business Center — screenshot" [ref=f5e175]
+          - generic [ref=f5e176]:
+            - generic [ref=f5e177]:
+              - generic [ref=f5e178]: PRJ.01
+              - generic [ref=f5e179]: Professional Business Center
+            - generic [ref=f5e180]: ↗
+        - link "Emaar Land — screenshot PRJ.02 Emaar Land ↗" [ref=f5e182] [cursor=pointer]:
+          - /url: https://emaar.sa
+          - img "Emaar Land — screenshot" [ref=f5e184]
+          - generic [ref=f5e185]:
+            - generic [ref=f5e186]:
+              - generic [ref=f5e187]: PRJ.02
+              - generic [ref=f5e188]: Emaar Land
+            - generic [ref=f5e189]: ↗
+        - link "4D Für Dich — screenshot PRJ.03 4D Für Dich ↗" [ref=f5e191] [cursor=pointer]:
+          - /url: https://4d4dich.de
+          - img "4D Für Dich — screenshot" [ref=f5e193]
+          - generic [ref=f5e194]:
+            - generic [ref=f5e195]:
+              - generic [ref=f5e196]: PRJ.03
+              - generic [ref=f5e197]: 4D Für Dich
+            - generic [ref=f5e198]: ↗
+        - link "Pizza by Hira — screenshot PRJ.04 Pizza by Hira ↗" [ref=f5e200] [cursor=pointer]:
+          - /url: https://pizzahira-dingolfing.de
+          - img "Pizza by Hira — screenshot" [ref=f5e202]
+          - generic [ref=f5e203]:
+            - generic [ref=f5e204]:
+              - generic [ref=f5e205]: PRJ.04
+              - generic [ref=f5e206]: Pizza by Hira
+            - generic [ref=f5e207]: ↗
+        - link "Fitness Total — screenshot PRJ.05 Fitness Total ↗" [ref=f5e209] [cursor=pointer]:
+          - /url: https://fitnesstotal-schoeneck.de
+          - img "Fitness Total — screenshot" [ref=f5e211]
+          - generic [ref=f5e212]:
+            - generic [ref=f5e213]:
+              - generic [ref=f5e214]: PRJ.05
+              - generic [ref=f5e215]: Fitness Total
+            - generic [ref=f5e216]: ↗
+        - link "Super Marketer — screenshot PRJ.06 Super Marketer ↗" [ref=f5e218] [cursor=pointer]:
+          - /url: https://supermarketer.net
+          - img "Super Marketer — screenshot" [ref=f5e220]
+          - generic [ref=f5e221]:
+            - generic [ref=f5e222]:
+              - generic [ref=f5e223]: PRJ.06
+              - generic [ref=f5e224]: Super Marketer
+            - generic [ref=f5e225]: ↗
+        - link "MTGAR — Digital Growth Agency — screenshot PRJ.07 MTGAR — Digital Growth Agency ↗" [ref=f5e227] [cursor=pointer]:
+          - /url: https://landing.mtgar.com
+          - img "MTGAR — Digital Growth Agency — screenshot" [ref=f5e229]
+          - generic [ref=f5e230]:
+            - generic [ref=f5e231]:
+              - generic [ref=f5e232]: PRJ.07
+              - generic [ref=f5e233]: MTGAR — Digital Growth Agency
+            - generic [ref=f5e234]: ↗
+  - contentinfo [ref=f5e235]:
+    - generic [ref=f5e236]:
+      - generic [ref=f5e237]:
+        - img "Aly Maher logo" [ref=f5e240]
+        - paragraph [ref=f5e241]: AI-Powered Creative Full-Stack Developer & Systems Engineer
+      - generic [ref=f5e242]:
+        - generic [ref=f5e243]: "[ NAV ]"
+        - list [ref=f5e244]:
+          - listitem [ref=f5e245]:
+            - link "Selected Work" [ref=f5e246] [cursor=pointer]:
+              - /url: /work
+          - listitem [ref=f5e247]:
+            - link "Capabilities" [ref=f5e248] [cursor=pointer]:
+              - /url: /capabilities
+          - listitem [ref=f5e249]:
+            - link "Case Studies" [ref=f5e250] [cursor=pointer]:
+              - /url: /case-studies
+          - listitem [ref=f5e251]:
+            - link "Contact" [ref=f5e252] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f5e253]:
+        - generic [ref=f5e254]: "[ CHANNELS ]"
+        - list [ref=f5e255]:
+          - listitem [ref=f5e256]:
+            - link "GitHub" [ref=f5e257] [cursor=pointer]:
+              - /url: https://github.com/alymaher494
+          - listitem [ref=f5e258]:
+            - link "LinkedIn" [ref=f5e259] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f5e260]:
+            - link "Email" [ref=f5e261] [cursor=pointer]:
+              - /url: mailto:contact@alymaher.com
+          - listitem [ref=f5e262]:
+            - link "contact@alymaher.com" [ref=f5e263] [cursor=pointer]:
+              - /url: mailto:contact@alymaher.com
+      - generic [ref=f5e264]:
+        - generic [ref=f5e265]: "[ STATUS ]"
+        - paragraph [ref=f5e266]: Available for freelance & remote engagements.
+        - paragraph [ref=f5e267]: Remote · GCC-friendly
+    - generic [ref=f5e268]: SYS.END // Aly Maher — AI-Powered Creative Full-Stack Developer & Systems Engineer

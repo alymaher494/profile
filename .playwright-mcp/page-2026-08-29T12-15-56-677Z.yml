@@ -1,0 +1,110 @@
+- generic [active] [ref=e1]:
+  - link "انتقل إلى المحتوى الرئيسي" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img "منصة الإسلام" [ref=e8]
+          - heading "منصة الإسلام" [level=1] [ref=e10]
+        - paragraph [ref=e11]: صدقة جارية
+      - navigation [ref=e16]:
+        - link "الرئيسية" [ref=e17] [cursor=pointer]:
+          - /url: /
+        - link "القرآن" [ref=e21] [cursor=pointer]:
+          - /url: /quran
+        - link "الاستماع" [ref=e25] [cursor=pointer]:
+          - /url: /audio
+        - link "الصلاة" [ref=e30] [cursor=pointer]:
+          - /url: /prayer
+        - link "نشاطي" [ref=e35] [cursor=pointer]:
+          - /url: /dashboard
+    - main [ref=e39]:
+      - main [ref=e40]:
+        - generic [ref=e53]:
+          - generic [ref=e61]:
+            - heading "منصة الإسلام" [level=1] [ref=e62]
+            - paragraph [ref=e63]: اقرأ القرآن الكريم، استمع للتلاوات، تابع أوقات الصلاة، وسجل نشاطك اليومي
+          - generic [ref=e64]:
+            - link "ابدأ القراءة" [ref=e65] [cursor=pointer]:
+              - /url: /quran
+            - link "استمع الآن" [ref=e69] [cursor=pointer]:
+              - /url: /audio
+        - generic [ref=e81]:
+          - heading "صدقة جارية" [level=2] [ref=e86]
+          - paragraph [ref=e87]: هذه المنصة هدية لجميع المسلمين، نسأل الله أن يجعلها صدقة جارية تنفعكم في الدنيا والآخرة. شاركها مع أحبائك وكن سبباً في نشر الخير.
+          - generic [ref=e88]:
+            - generic [ref=e89]: مجانية بالكامل
+            - generic [ref=e92]: بدون إعلانات
+            - generic [ref=e95]: مفتوحة المصدر
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - heading "مميزات المنصة" [level=2] [ref=e101]
+            - paragraph [ref=e102]: كل ما تحتاجه في مكان واحد
+          - generic [ref=e107]:
+            - link [ref=e108] [cursor=pointer]:
+              - /url: /quran
+              - generic [ref=e114]:
+                - heading "القرآن الكريم" [level=3] [ref=e115]
+                - paragraph [ref=e116]: اقرأ القرآن الكريم بكل سهولة مع عرض جميل للنص العربي
+            - link [ref=e117] [cursor=pointer]:
+              - /url: /audio
+              - generic [ref=e124]:
+                - heading "الاستماع للقرآن" [level=3] [ref=e125]
+                - paragraph [ref=e126]: استمع لتلاوات عديدة من قراء مشهورين بجودة عالية
+            - link [ref=e127] [cursor=pointer]:
+              - /url: /prayer
+              - generic [ref=e134]:
+                - heading "أوقات الصلاة" [level=3] [ref=e135]
+                - paragraph [ref=e136]: تعرف على أوقات الصلاة في منطقتك بدقة
+            - link [ref=e137] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=e143]:
+                - heading "نشاطي" [level=3] [ref=e144]
+                - paragraph [ref=e145]: تتبع قراءتك واستماعك اليومي وتقدمك
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - heading "كيف تعمل المنصة؟" [level=2] [ref=e149]
+            - paragraph [ref=e150]: ثلاث خطوات بسيطة للبدء
+          - generic [ref=e155]:
+            - generic [ref=e162]:
+              - generic [ref=e163]: "1"
+              - heading "اختر السورة" [level=3] [ref=e164]
+              - paragraph [ref=e165]: تصفح قائمة السور واختر ما تريد قراءته أو الاستماع إليه
+            - generic [ref=e173]:
+              - generic [ref=e174]: "2"
+              - heading "اقرأ أو استمع" [level=3] [ref=e175]
+              - paragraph [ref=e176]: استمتع بقراءة القرآن أو الاستماع للتلاوات
+            - generic [ref=e183]:
+              - generic [ref=e184]: "3"
+              - heading "تتبع تقدمك" [level=3] [ref=e185]
+              - paragraph [ref=e186]: سجل نشاطك اليومي وتابع إنجازاتك
+        - generic [ref=e188]:
+          - generic [ref=e189]:
+            - heading "آية من القرآن الكريم" [level=2] [ref=e190]
+            - paragraph [ref=e191]: نور الهدى والرحمة
+          - generic [ref=e196]:
+            - paragraph [ref=e197]: بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+            - paragraph [ref=e198]: اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ
+            - generic [ref=e199]:
+              - generic [ref=e200]: سورة البقرة - آية الكرسي
+              - generic [ref=e201]: ﷽
+          - link "اقرأ المزيد" [ref=e203] [cursor=pointer]:
+            - /url: /quran
+        - generic [ref=e208]:
+          - heading "ابدأ رحلتك الروحانية اليوم" [level=2] [ref=e216]
+          - paragraph [ref=e217]: انضم إلى آلاف المسلمين الذين يستخدمون المنصة يومياً لقراءة القرآن والاستماع إليه وتتبع أوقات الصلاة
+          - generic [ref=e218]:
+            - link "ابدأ الآن" [ref=e219] [cursor=pointer]:
+              - /url: /quran
+            - link "أوقات الصلاة" [ref=e223] [cursor=pointer]:
+              - /url: /prayer
+          - paragraph [ref=e232]: منصة الإسلام - صدقة جارية
+  - button "Open Next.js Dev Tools" [ref=e238] [cursor=pointer]:
+    - generic [ref=e241]:
+      - text: Compiling
+      - generic [ref=e242]:
+        - generic [ref=e243]: .
+        - generic [ref=e244]: .
+        - generic [ref=e245]: .
+  - alert [ref=e246]

@@ -10,3 +10,10 @@ public/work/*.png
 public/clients/*.png
 public/tech/*.png
 public/audio/*.mp3
+
+@plans
+worktree
+.kilo
+
+nul
+stash.diff

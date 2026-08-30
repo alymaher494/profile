@@ -63,6 +63,12 @@ export function Evidence() {
                 {p.summary}
               </p>
 
+              {p.outcome && (
+                <p className="mt-3 text-sm leading-relaxed text-signal-dim">
+                  Outcome: {p.outcome}
+                </p>
+              )}
+
               {/* Proof vectors — what this project demonstrates */}
               <div className="mt-5 flex flex-wrap gap-1.5">
                 {p.proves.map((v) => (
@@ -80,14 +86,26 @@ export function Evidence() {
                   {p.stack.slice(0, 3).join(" · ")}
                   {p.stack.length > 3 ? " …" : ""}
                 </div>
-                <a
-                  href={p.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="shrink-0 font-mono text-[10px] uppercase tracking-widest2 text-signal-dim transition-colors hover:text-signal"
-                >
-                  Visit ↗
-                </a>
+                <div className="flex shrink-0 gap-3">
+                  {p.github && (
+                    <a
+                      href={p.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-mono text-[10px] uppercase tracking-widest2 text-signal-dim transition-colors hover:text-signal"
+                    >
+                      Code ↗
+                    </a>
+                  )}
+                  <a
+                    href={p.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-mono text-[10px] uppercase tracking-widest2 text-signal-dim transition-colors hover:text-signal"
+                  >
+                    Visit ↗
+                  </a>
+                </div>
               </div>
             </Reveal>
           ))}

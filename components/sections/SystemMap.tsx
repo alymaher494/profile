@@ -1,18 +1,19 @@
 import Link from "next/link";
 import { Reveal } from "@/components/ui/Reveal";
 import { AxisField } from "@/components/ui/AxisField";
+import { Parallax } from "@/components/ui/Parallax";
 
 const NODES = [
   {
     href: "/work",
     coord: "01",
-    label: "Selected Work",
+    label: "Projects",
     desc: "Live client systems — the evidence ledger of real, shipped builds.",
   },
   {
     href: "/capabilities",
     coord: "02",
-    label: "Capabilities",
+    label: "Services",
     desc: "Four engineering domains, from headless web to infrastructure.",
   },
   {
@@ -35,7 +36,9 @@ export function SystemMap() {
       id="system-map"
       className="relative border-t border-line py-24 sm:py-32"
     >
-      <AxisField className="pointer-events-none absolute -left-24 top-10 hidden h-[420px] w-[420px] opacity-30 lg:block" />
+      <Parallax max={30} speed={0.2} section="architecture">
+        <AxisField className="pointer-events-none absolute -left-24 top-10 hidden h-[420px] w-[420px] opacity-30 lg:block" />
+      </Parallax>
 
       <div className="shell relative">
         <div className="tech-mark mb-5">[ 00 / SYSTEM MAP ]</div>
@@ -56,18 +59,18 @@ export function SystemMap() {
             >
               <Link
                 href={n.href}
-                className="flex h-full flex-col gap-4 p-8 transition-transform duration-500 group-hover:-translate-y-1"
+                className="relative flex h-full flex-col gap-4 p-8 transition-transform duration-500 group-hover:-translate-y-1"
               >
-                <div className="flex items-center justify-between">
+                <div className="relative z-10 flex items-center justify-between">
                   <span className="coord">NODE.{n.coord}</span>
                   <span className="font-mono text-sm text-muted-2 transition-colors group-hover:text-signal">
                     →
                   </span>
                 </div>
-                <h3 className="font-display text-2xl font-medium text-ink transition-colors group-hover:text-signal">
+                <h3 className="relative z-10 font-display text-2xl font-medium text-ink transition-colors group-hover:text-signal">
                   {n.label}
                 </h3>
-                <p className="max-w-sm text-sm leading-relaxed text-muted">
+                <p className="relative z-10 max-w-sm text-sm leading-relaxed text-muted">
                   {n.desc}
                 </p>
               </Link>

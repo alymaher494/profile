@@ -1,0 +1,767 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Aly Maher logo" [ref=e6]
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "00 Home" [ref=e9] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e10]: "00"
+            - text: Home
+        - listitem [ref=e11]:
+          - link "01 Projects" [ref=e12] [cursor=pointer]:
+            - /url: /work
+            - generic [ref=e13]: "01"
+            - text: Projects
+        - listitem [ref=e14]:
+          - link "02 Services" [ref=e15] [cursor=pointer]:
+            - /url: /capabilities
+            - generic [ref=e16]: "02"
+            - text: Services
+        - listitem [ref=e17]:
+          - link "03 Case Studies" [ref=e18] [cursor=pointer]:
+            - /url: /case-studies
+            - generic [ref=e19]: "03"
+            - text: Case Studies
+        - listitem [ref=e20]:
+          - link "05 Pricing" [ref=e21] [cursor=pointer]:
+            - /url: /pricing
+            - generic [ref=e22]: "05"
+            - text: Pricing
+        - listitem [ref=e23]:
+          - link "06 Contact" [ref=e24] [cursor=pointer]:
+            - /url: /contact
+            - generic [ref=e25]: "06"
+            - text: Contact
+      - link "Start" [ref=e26] [cursor=pointer]:
+        - /url: /contact
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: "[ 00 / NUCLEUS ]"
+          - heading "Aly Maher" [level=1] [ref=e34]
+          - generic [ref=e35]: Remote Technical Partner
+          - paragraph [ref=e37]: We turn your idea into a digital system that sells. From a marketing website to a full-stack platform — built remote, contract-first, and ready to ship.
+          - generic [ref=e38]:
+            - link "Get a quote" [ref=e39] [cursor=pointer]:
+              - /url: /contact
+            - link "View our work" [ref=e40] [cursor=pointer]:
+              - /url: /work
+          - generic [ref=e41]:
+            - generic [ref=e42]: Projects start from $500
+            - generic [ref=e45]: Available for remote engagements
+        - generic [ref=e46]:
+          - generic [ref=e47]: SYS.ORIGIN // 0,0,0
+          - generic [ref=e49]: AXIS.X — FRONTEND
+          - generic [ref=e50]: AXIS.Y — SYSTEMS
+          - generic [ref=e51]: AXIS.Z — INFRA
+          - generic [ref=e53]: "STATUS: ONLINE"
+      - generic [ref=e54]: ↓ descend
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]: "7"
+        - generic [ref=e61]: Live client systems
+        - generic [ref=e62]: NODE.01
+      - generic [ref=e63]:
+        - generic [ref=e64]: "4"
+        - generic [ref=e65]: Engineering domains
+        - generic [ref=e66]: NODE.02
+      - generic [ref=e67]:
+        - generic [ref=e68]: "16"
+        - generic [ref=e69]: Public repositories
+        - generic [ref=e70]: NODE.03
+      - generic [ref=e71]:
+        - generic [ref=e72]: AR/EN
+        - generic [ref=e73]: Bilingual · RTL-LTR
+        - generic [ref=e74]: NODE.04
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: "[02"
+        - generic [ref=e80]: USE CASES
+        - generic [ref=e81]: "]"
+      - generic [ref=e82]:
+        - heading "Built for your system." [level=2] [ref=e83]
+        - paragraph [ref=e84]: Pick the use case that matches your needs. Each one maps to real, shipped work — not concept art.
+      - generic [ref=e85]:
+        - link "NODE.01 → E-commerce Online stores that convert visitors into buyers — WooCommerce, Shopify, or custom checkout." [ref=e87] [cursor=pointer]:
+          - /url: /work?filter=ecommerce
+          - generic [ref=e88]:
+            - generic [ref=e89]: NODE.01
+            - generic [ref=e90]: →
+          - heading "E-commerce" [level=3] [ref=e91]
+          - paragraph [ref=e92]: Online stores that convert visitors into buyers — WooCommerce, Shopify, or custom checkout.
+        - link "NODE.02 → Corporate site Bilingual corporate presence that builds trust — from identity to content publishing." [ref=e94] [cursor=pointer]:
+          - /url: /work?filter=corporate
+          - generic [ref=e95]:
+            - generic [ref=e96]: NODE.02
+            - generic [ref=e97]: →
+          - heading "Corporate site" [level=3] [ref=e98]
+          - paragraph [ref=e99]: Bilingual corporate presence that builds trust — from identity to content publishing.
+        - link "NODE.03 → Custom system Bespoke platforms, admin panels, and internal tools built for your exact workflow." [ref=e101] [cursor=pointer]:
+          - /url: /work?filter=custom
+          - generic [ref=e102]:
+            - generic [ref=e103]: NODE.03
+            - generic [ref=e104]: →
+          - heading "Custom system" [level=3] [ref=e105]
+          - paragraph [ref=e106]: Bespoke platforms, admin panels, and internal tools built for your exact workflow.
+        - link "NODE.04 → Infrastructure Hosting, CI/CD, DNS, and high-availability architecture — production-hardened." [ref=e108] [cursor=pointer]:
+          - /url: /work?filter=infra
+          - generic [ref=e109]:
+            - generic [ref=e110]: NODE.04
+            - generic [ref=e111]: →
+          - heading "Infrastructure" [level=3] [ref=e112]
+          - paragraph [ref=e113]: Hosting, CI/CD, DNS, and high-availability architecture — production-hardened.
+        - link "NODE.05 → AI / Automation Applied AI, chatbots, lead routing, and workflow automation that saves hours." [ref=e115] [cursor=pointer]:
+          - /url: /work?filter=ai
+          - generic [ref=e116]:
+            - generic [ref=e117]: NODE.05
+            - generic [ref=e118]: →
+          - heading "AI / Automation" [level=3] [ref=e119]
+          - paragraph [ref=e120]: Applied AI, chatbots, lead routing, and workflow automation that saves hours.
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - generic [ref=e124]: "[01"
+        - generic [ref=e126]: EVIDENCE
+        - generic [ref=e127]: "]"
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - heading "Selected systems." [level=2] [ref=e130]
+          - paragraph [ref=e131]: A sample of live builds — commerce, bilingual real-estate, AI marketing, and agency storefronts. Each one shipped and running.
+        - link "Full work index →" [ref=e133] [cursor=pointer]:
+          - /url: /work
+      - generic [ref=e134]:
+        - link "Super Marketer — screenshot PRJ.06 Super Marketer Super Marketer — INT · 2026 ↗" [ref=e136] [cursor=pointer]:
+          - /url: https://supermarketer.net
+          - img "Super Marketer — screenshot" [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - generic [ref=e141]: PRJ.06
+              - generic [ref=e142]: Super Marketer
+              - generic [ref=e143]: Super Marketer — INT · 2026
+            - generic [ref=e144]: ↗
+        - link "4D Für Dich — screenshot PRJ.03 4D Für Dich 4D Für Dich — DE · 2025 ↗" [ref=e146] [cursor=pointer]:
+          - /url: https://4d4dich.de
+          - img "4D Für Dich — screenshot" [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]: PRJ.03
+              - generic [ref=e152]: 4D Für Dich
+              - generic [ref=e153]: 4D Für Dich — DE · 2025
+            - generic [ref=e154]: ↗
+        - link "Professional Business Center — screenshot PRJ.01 Professional Business Center PBC — KSA · 2026 ↗" [ref=e156] [cursor=pointer]:
+          - /url: https://pbc-ksa.com
+          - img "Professional Business Center — screenshot" [ref=e158]
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - generic [ref=e161]: PRJ.01
+              - generic [ref=e162]: Professional Business Center
+              - generic [ref=e163]: PBC — KSA · 2026
+            - generic [ref=e164]: ↗
+        - link "MTGAR — Digital Growth Agency — screenshot PRJ.07 MTGAR — Digital Growth Agency MTGAR — KSA · 2026 ↗" [ref=e166] [cursor=pointer]:
+          - /url: https://landing.mtgar.com
+          - img "MTGAR — Digital Growth Agency — screenshot" [ref=e168]
+          - generic [ref=e169]:
+            - generic [ref=e170]:
+              - generic [ref=e171]: PRJ.07
+              - generic [ref=e172]: MTGAR — Digital Growth Agency
+              - generic [ref=e173]: MTGAR — KSA · 2026
+            - generic [ref=e174]: ↗
+      - generic [ref=e175]:
+        - paragraph [ref=e176]: Want a project like this?
+        - link "Start a project" [ref=e177] [cursor=pointer]:
+          - /url: /contact
+    - generic [ref=e178]:
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - generic [ref=e181]: "[01"
+          - generic [ref=e183]: CLIENTS
+          - generic [ref=e184]: "]"
+        - generic [ref=e185]:
+          - heading "Trusted by." [level=2] [ref=e186]
+          - paragraph [ref=e187]: Real companies that shipped real systems. Names and storefronts.
+      - generic [ref=e188]:
+        - generic [ref=e190]:
+          - img "PBC" [ref=e192] [cursor=pointer]
+          - img "Emaar Land" [ref=e194] [cursor=pointer]
+          - img "4D Für Dich" [ref=e196] [cursor=pointer]
+          - img "Pizza by Hira" [ref=e198] [cursor=pointer]
+          - img "Fitness Total" [ref=e200] [cursor=pointer]
+          - img "Super Marketer" [ref=e202] [cursor=pointer]
+          - img "MTGAR" [ref=e204] [cursor=pointer]
+          - img "Outgrid" [ref=e206] [cursor=pointer]
+          - img "Europa Grill" [ref=e208] [cursor=pointer]
+          - img "Weisspro" [ref=e210] [cursor=pointer]
+          - img "Maxx Firma" [ref=e212] [cursor=pointer]
+          - img "Logo Dark" [ref=e214] [cursor=pointer]
+          - img "Logo White" [ref=e216] [cursor=pointer]
+          - img "Logo Main" [ref=e218] [cursor=pointer]
+          - img "Layer 1" [ref=e220] [cursor=pointer]
+          - img "Layer 4" [ref=e222] [cursor=pointer]
+          - img "Layer 5" [ref=e224] [cursor=pointer]
+          - img "Layer 7" [ref=e226] [cursor=pointer]
+          - img "Layer 8" [ref=e228] [cursor=pointer]
+          - img "Black Version" [ref=e230] [cursor=pointer]
+          - img "No Padding" [ref=e232] [cursor=pointer]
+          - img "Vector Smart Object" [ref=e234] [cursor=pointer]
+          - img "WhatsApp 2026-02" [ref=e236] [cursor=pointer]
+          - img "WhatsApp 2026-05" [ref=e238] [cursor=pointer]
+          - img "WhatsApp 2023-12-1" [ref=e240] [cursor=pointer]
+          - img "WhatsApp 2023-12-2" [ref=e242] [cursor=pointer]
+          - img "IMG-20250920" [ref=e244] [cursor=pointer]
+          - img "عربي" [ref=e246] [cursor=pointer]
+          - img "PBC" [ref=e248] [cursor=pointer]
+          - img "Emaar Land" [ref=e250] [cursor=pointer]
+          - img "4D Für Dich" [ref=e252] [cursor=pointer]
+          - img "Pizza by Hira" [ref=e254] [cursor=pointer]
+          - img "Fitness Total" [ref=e256] [cursor=pointer]
+          - img "Super Marketer" [ref=e258] [cursor=pointer]
+          - img "MTGAR" [ref=e260] [cursor=pointer]
+          - img "Outgrid" [ref=e262] [cursor=pointer]
+          - img "Europa Grill" [ref=e264] [cursor=pointer]
+          - img "Weisspro" [ref=e266] [cursor=pointer]
+          - img "Maxx Firma" [ref=e268] [cursor=pointer]
+          - img "Logo Dark" [ref=e270] [cursor=pointer]
+          - img "Logo White" [ref=e272] [cursor=pointer]
+          - img "Logo Main" [ref=e274] [cursor=pointer]
+          - img "Layer 1" [ref=e276] [cursor=pointer]
+          - img "Layer 4" [ref=e278] [cursor=pointer]
+          - img "Layer 5" [ref=e280] [cursor=pointer]
+          - img "Layer 7" [ref=e282] [cursor=pointer]
+          - img "Layer 8" [ref=e284] [cursor=pointer]
+          - img "Black Version" [ref=e286] [cursor=pointer]
+          - img "No Padding" [ref=e288] [cursor=pointer]
+          - img "Vector Smart Object" [ref=e290] [cursor=pointer]
+          - img "WhatsApp 2026-02" [ref=e292] [cursor=pointer]
+          - img "WhatsApp 2026-05" [ref=e294] [cursor=pointer]
+          - img "WhatsApp 2023-12-1" [ref=e296] [cursor=pointer]
+          - img "WhatsApp 2023-12-2" [ref=e298] [cursor=pointer]
+          - img "IMG-20250920" [ref=e300] [cursor=pointer]
+          - img "عربي" [ref=e302] [cursor=pointer]
+          - img "PBC" [ref=e304] [cursor=pointer]
+          - img "Emaar Land" [ref=e306] [cursor=pointer]
+          - img "4D Für Dich" [ref=e308] [cursor=pointer]
+          - img "Pizza by Hira" [ref=e310] [cursor=pointer]
+          - img "Fitness Total" [ref=e312] [cursor=pointer]
+          - img "Super Marketer" [ref=e314] [cursor=pointer]
+          - img "MTGAR" [ref=e316] [cursor=pointer]
+          - img "Outgrid" [ref=e318] [cursor=pointer]
+          - img "Europa Grill" [ref=e320] [cursor=pointer]
+          - img "Weisspro" [ref=e322] [cursor=pointer]
+          - img "Maxx Firma" [ref=e324] [cursor=pointer]
+          - img "Logo Dark" [ref=e326] [cursor=pointer]
+          - img "Logo White" [ref=e328] [cursor=pointer]
+          - img "Logo Main" [ref=e330] [cursor=pointer]
+          - img "Layer 1" [ref=e332] [cursor=pointer]
+          - img "Layer 4" [ref=e334] [cursor=pointer]
+          - img "Layer 5" [ref=e336] [cursor=pointer]
+          - img "Layer 7" [ref=e338] [cursor=pointer]
+          - img "Layer 8" [ref=e340] [cursor=pointer]
+          - img "Black Version" [ref=e342] [cursor=pointer]
+          - img "No Padding" [ref=e344] [cursor=pointer]
+          - img "Vector Smart Object" [ref=e346] [cursor=pointer]
+          - img "WhatsApp 2026-02" [ref=e348] [cursor=pointer]
+          - img "WhatsApp 2026-05" [ref=e350] [cursor=pointer]
+          - img "WhatsApp 2023-12-1" [ref=e352] [cursor=pointer]
+          - img "WhatsApp 2023-12-2" [ref=e354] [cursor=pointer]
+          - img "IMG-20250920" [ref=e356] [cursor=pointer]
+          - img "عربي" [ref=e358] [cursor=pointer]
+          - img "PBC" [ref=e360] [cursor=pointer]
+          - img "Emaar Land" [ref=e362] [cursor=pointer]
+          - img "4D Für Dich" [ref=e364] [cursor=pointer]
+          - img "Pizza by Hira" [ref=e366] [cursor=pointer]
+          - img "Fitness Total" [ref=e368] [cursor=pointer]
+          - img "Super Marketer" [ref=e370] [cursor=pointer]
+          - img "MTGAR" [ref=e372] [cursor=pointer]
+          - img "Outgrid" [ref=e374] [cursor=pointer]
+          - img "Europa Grill" [ref=e376] [cursor=pointer]
+          - img "Weisspro" [ref=e378] [cursor=pointer]
+          - img "Maxx Firma" [ref=e380] [cursor=pointer]
+          - img "Logo Dark" [ref=e382] [cursor=pointer]
+          - img "Logo White" [ref=e384] [cursor=pointer]
+          - img "Logo Main" [ref=e386] [cursor=pointer]
+          - img "Layer 1" [ref=e388] [cursor=pointer]
+          - img "Layer 4" [ref=e390] [cursor=pointer]
+          - img "Layer 5" [ref=e392] [cursor=pointer]
+          - img "Layer 7" [ref=e394] [cursor=pointer]
+          - img "Layer 8" [ref=e396] [cursor=pointer]
+          - img "Black Version" [ref=e398] [cursor=pointer]
+          - img "No Padding" [ref=e400] [cursor=pointer]
+          - img "Vector Smart Object" [ref=e402] [cursor=pointer]
+          - img "WhatsApp 2026-02" [ref=e404] [cursor=pointer]
+          - img "WhatsApp 2026-05" [ref=e406] [cursor=pointer]
+          - img "WhatsApp 2023-12-1" [ref=e408] [cursor=pointer]
+          - img "WhatsApp 2023-12-2" [ref=e410] [cursor=pointer]
+          - img "IMG-20250920" [ref=e412] [cursor=pointer]
+          - img "عربي" [ref=e414] [cursor=pointer]
+        - generic [ref=e416]:
+          - img "PBC" [ref=e418] [cursor=pointer]
+          - img "Emaar Land" [ref=e420] [cursor=pointer]
+          - img "4D Für Dich" [ref=e422] [cursor=pointer]
+          - img "Pizza by Hira" [ref=e424] [cursor=pointer]
+          - img "Fitness Total" [ref=e426] [cursor=pointer]
+          - img "Super Marketer" [ref=e428] [cursor=pointer]
+          - img "MTGAR" [ref=e430] [cursor=pointer]
+          - img "Outgrid" [ref=e432] [cursor=pointer]
+          - img "Europa Grill" [ref=e434] [cursor=pointer]
+          - img "Weisspro" [ref=e436] [cursor=pointer]
+          - img "Maxx Firma" [ref=e438] [cursor=pointer]
+          - img "Logo Dark" [ref=e440] [cursor=pointer]
+          - img "Logo White" [ref=e442] [cursor=pointer]
+          - img "Logo Main" [ref=e444] [cursor=pointer]
+          - img "Layer 1" [ref=e446] [cursor=pointer]
+          - img "Layer 4" [ref=e448] [cursor=pointer]
+          - img "Layer 5" [ref=e450] [cursor=pointer]
+          - img "Layer 7" [ref=e452] [cursor=pointer]
+          - img "Layer 8" [ref=e454] [cursor=pointer]
+          - img "Black Version" [ref=e456] [cursor=pointer]
+          - img "No Padding" [ref=e458] [cursor=pointer]
+          - img "Vector Smart Object" [ref=e460] [cursor=pointer]
+          - img "WhatsApp 2026-02" [ref=e462] [cursor=pointer]
+          - img "WhatsApp 2026-05" [ref=e464] [cursor=pointer]
+          - img "WhatsApp 2023-12-1" [ref=e466] [cursor=pointer]
+          - img "WhatsApp 2023-12-2" [ref=e468] [cursor=pointer]
+          - img "IMG-20250920" [ref=e470] [cursor=pointer]
+          - img "عربي" [ref=e472] [cursor=pointer]
+          - img "PBC" [ref=e474] [cursor=pointer]
+          - img "Emaar Land" [ref=e476] [cursor=pointer]
+          - img "4D Für Dich" [ref=e478] [cursor=pointer]
+          - img "Pizza by Hira" [ref=e480] [cursor=pointer]
+          - img "Fitness Total" [ref=e482] [cursor=pointer]
+          - img "Super Marketer" [ref=e484] [cursor=pointer]
+          - img "MTGAR" [ref=e486] [cursor=pointer]
+          - img "Outgrid" [ref=e488] [cursor=pointer]
+          - img "Europa Grill" [ref=e490] [cursor=pointer]
+          - img "Weisspro" [ref=e492] [cursor=pointer]
+          - img "Maxx Firma" [ref=e494] [cursor=pointer]
+          - img "Logo Dark" [ref=e496] [cursor=pointer]
+          - img "Logo White" [ref=e498] [cursor=pointer]
+          - img "Logo Main" [ref=e500] [cursor=pointer]
+          - img "Layer 1" [ref=e502] [cursor=pointer]
+          - img "Layer 4" [ref=e504] [cursor=pointer]
+          - img "Layer 5" [ref=e506] [cursor=pointer]
+          - img "Layer 7" [ref=e508] [cursor=pointer]
+          - img "Layer 8" [ref=e510] [cursor=pointer]
+          - img "Black Version" [ref=e512] [cursor=pointer]
+          - img "No Padding" [ref=e514] [cursor=pointer]
+          - img "Vector Smart Object" [ref=e516] [cursor=pointer]
+          - img "WhatsApp 2026-02" [ref=e518] [cursor=pointer]
+          - img "WhatsApp 2026-05" [ref=e520] [cursor=pointer]
+          - img "WhatsApp 2023-12-1" [ref=e522] [cursor=pointer]
+          - img "WhatsApp 2023-12-2" [ref=e524] [cursor=pointer]
+          - img "IMG-20250920" [ref=e526] [cursor=pointer]
+          - img "عربي" [ref=e528] [cursor=pointer]
+          - img "PBC" [ref=e530] [cursor=pointer]
+          - img "Emaar Land" [ref=e532] [cursor=pointer]
+          - img "4D Für Dich" [ref=e534] [cursor=pointer]
+          - img "Pizza by Hira" [ref=e536] [cursor=pointer]
+          - img "Fitness Total" [ref=e538] [cursor=pointer]
+          - img "Super Marketer" [ref=e540] [cursor=pointer]
+          - img "MTGAR" [ref=e542] [cursor=pointer]
+          - img "Outgrid" [ref=e544] [cursor=pointer]
+          - img "Europa Grill" [ref=e546] [cursor=pointer]
+          - img "Weisspro" [ref=e548] [cursor=pointer]
+          - img "Maxx Firma" [ref=e550] [cursor=pointer]
+          - img "Logo Dark" [ref=e552] [cursor=pointer]
+          - img "Logo White" [ref=e554] [cursor=pointer]
+          - img "Logo Main" [ref=e556] [cursor=pointer]
+          - img "Layer 1" [ref=e558] [cursor=pointer]
+          - img "Layer 4" [ref=e560] [cursor=pointer]
+          - img "Layer 5" [ref=e562] [cursor=pointer]
+          - img "Layer 7" [ref=e564] [cursor=pointer]
+          - img "Layer 8" [ref=e566] [cursor=pointer]
+          - img "Black Version" [ref=e568] [cursor=pointer]
+          - img "No Padding" [ref=e570] [cursor=pointer]
+          - img "Vector Smart Object" [ref=e572] [cursor=pointer]
+          - img "WhatsApp 2026-02" [ref=e574] [cursor=pointer]
+          - img "WhatsApp 2026-05" [ref=e576] [cursor=pointer]
+          - img "WhatsApp 2023-12-1" [ref=e578] [cursor=pointer]
+          - img "WhatsApp 2023-12-2" [ref=e580] [cursor=pointer]
+          - img "IMG-20250920" [ref=e582] [cursor=pointer]
+          - img "عربي" [ref=e584] [cursor=pointer]
+          - img "PBC" [ref=e586] [cursor=pointer]
+          - img "Emaar Land" [ref=e588] [cursor=pointer]
+          - img "4D Für Dich" [ref=e590] [cursor=pointer]
+          - img "Pizza by Hira" [ref=e592] [cursor=pointer]
+          - img "Fitness Total" [ref=e594] [cursor=pointer]
+          - img "Super Marketer" [ref=e596] [cursor=pointer]
+          - img "MTGAR" [ref=e598] [cursor=pointer]
+          - img "Outgrid" [ref=e600] [cursor=pointer]
+          - img "Europa Grill" [ref=e602] [cursor=pointer]
+          - img "Weisspro" [ref=e604] [cursor=pointer]
+          - img "Maxx Firma" [ref=e606] [cursor=pointer]
+          - img "Logo Dark" [ref=e608] [cursor=pointer]
+          - img "Logo White" [ref=e610] [cursor=pointer]
+          - img "Logo Main" [ref=e612] [cursor=pointer]
+          - img "Layer 1" [ref=e614] [cursor=pointer]
+          - img "Layer 4" [ref=e616] [cursor=pointer]
+          - img "Layer 5" [ref=e618] [cursor=pointer]
+          - img "Layer 7" [ref=e620] [cursor=pointer]
+          - img "Layer 8" [ref=e622] [cursor=pointer]
+          - img "Black Version" [ref=e624] [cursor=pointer]
+          - img "No Padding" [ref=e626] [cursor=pointer]
+          - img "Vector Smart Object" [ref=e628] [cursor=pointer]
+          - img "WhatsApp 2026-02" [ref=e630] [cursor=pointer]
+          - img "WhatsApp 2026-05" [ref=e632] [cursor=pointer]
+          - img "WhatsApp 2023-12-1" [ref=e634] [cursor=pointer]
+          - img "WhatsApp 2023-12-2" [ref=e636] [cursor=pointer]
+          - img "IMG-20250920" [ref=e638] [cursor=pointer]
+          - img "عربي" [ref=e640] [cursor=pointer]
+    - generic [ref=e642]:
+      - generic [ref=e643]:
+        - generic [ref=e644]:
+          - generic [ref=e645]: "[ 02 / ARCHITECTURE ]"
+          - generic [ref=e646]:
+            - heading "Four engineering domains." [level=2] [ref=e647]
+            - paragraph [ref=e648]: From headless web to infrastructure — each engagement draws on a defined capability stack, contract-first and built to ship.
+        - link "All capabilities →" [ref=e650] [cursor=pointer]:
+          - /url: /capabilities
+      - generic [ref=e651]:
+        - generic [ref=e652]:
+          - generic [ref=e653]: MOD.01
+          - heading "Headless Web & E-commerce" [level=3] [ref=e654]
+          - list [ref=e655]:
+            - listitem [ref=e656]: Next.js (App Router) + WordPress / ACF Pro
+            - listitem [ref=e658]: On-Demand ISR & Edge caching
+            - listitem [ref=e660]: Bilingual AR/EN · RTL-LTR
+        - generic [ref=e662]:
+          - generic [ref=e663]: MOD.02
+          - heading "Payment Middleware & Checkout" [level=3] [ref=e664]
+          - list [ref=e665]:
+            - listitem [ref=e666]: Payment aggregation (Moyasar, EdfaPay, Payone)
+            - listitem [ref=e668]: Webhook verification & reconciliation
+            - listitem [ref=e670]: Cryptographic signatures
+        - generic [ref=e672]:
+          - generic [ref=e673]: MOD.03
+          - heading "Applied AI & Automation" [level=3] [ref=e674]
+          - list [ref=e675]:
+            - listitem [ref=e676]: LLM multi-model routing
+            - listitem [ref=e678]: Contract-first agent frameworks
+            - listitem [ref=e680]: WhatsApp / Evolution API
+        - generic [ref=e682]:
+          - generic [ref=e683]: MOD.04
+          - heading "Multi-Tenant & Infrastructure" [level=3] [ref=e684]
+          - list [ref=e685]:
+            - listitem [ref=e686]: Supabase · PostgreSQL RLS
+            - listitem [ref=e688]: Linux VPS · Docker · Caddy / Nginx
+            - listitem [ref=e690]: Dual-Node High Availability
+    - generic [ref=e693]:
+      - generic [ref=e694]:
+        - generic [ref=e695]: "[ 02 / STACK ]"
+        - heading "The toolkit." [level=2] [ref=e696]
+        - paragraph [ref=e697]: The technologies I reach for to ship production systems — from front-end frameworks to infrastructure.
+      - generic [ref=e698]:
+        - generic [ref=e699]:
+          - generic:
+            - img "Next.js"
+          - generic [ref=e700]: Next.js
+        - generic [ref=e701]:
+          - img "React" [ref=e703]
+          - generic [ref=e704]: React
+        - generic [ref=e705]:
+          - img "TypeScript" [ref=e707]
+          - generic [ref=e708]: TypeScript
+        - generic [ref=e709]:
+          - img "WordPress" [ref=e711]
+          - generic [ref=e712]: WordPress
+        - generic [ref=e713]:
+          - generic:
+            - img "WooCommerce"
+          - generic [ref=e714]: WooCommerce
+        - generic [ref=e715]:
+          - generic:
+            - img "Python"
+          - generic [ref=e716]: Python
+        - generic [ref=e717]:
+          - generic:
+            - img "Supabase"
+          - generic [ref=e718]: Supabase
+        - generic [ref=e719]:
+          - generic:
+            - img "PostgreSQL"
+          - generic [ref=e720]: PostgreSQL
+        - generic [ref=e721]:
+          - generic:
+            - img "Docker"
+          - generic [ref=e722]: Docker
+        - generic [ref=e723]:
+          - img "Vercel" [ref=e725]
+          - generic [ref=e726]: Vercel
+        - generic [ref=e727]:
+          - img "Cloudflare" [ref=e729]
+          - generic [ref=e730]: Cloudflare
+        - generic [ref=e731]:
+          - img "Node.js" [ref=e733]
+          - generic [ref=e734]: Node.js
+        - generic [ref=e735]:
+          - generic:
+            - img "Express"
+          - generic [ref=e736]: Express
+        - generic [ref=e737]:
+          - generic:
+            - img "FastAPI"
+          - generic [ref=e738]: FastAPI
+        - generic [ref=e739]:
+          - img "Go" [ref=e741]
+          - generic [ref=e742]: Go
+        - generic [ref=e743]:
+          - img "Vue" [ref=e745]
+          - generic [ref=e746]: Vue
+        - generic [ref=e747]:
+          - img "Nuxt" [ref=e749]
+          - generic [ref=e750]: Nuxt
+        - generic [ref=e751]:
+          - img "ACF Pro" [ref=e753]
+          - generic [ref=e754]: ACF Pro
+        - generic [ref=e755]:
+          - generic:
+            - img "GraphQL"
+          - generic [ref=e756]: GraphQL
+        - generic [ref=e757]:
+          - generic:
+            - img "Caddy"
+          - generic [ref=e758]: Caddy
+    - generic [ref=e760]:
+      - generic [ref=e761]:
+        - generic [ref=e762]: "[03"
+        - generic [ref=e764]: FROM THE LAB
+        - generic [ref=e765]: "]"
+      - generic [ref=e766]:
+        - generic [ref=e767]:
+          - heading "Public engineering." [level=2] [ref=e768]
+          - paragraph [ref=e769]: Live from GitHub — real repositories across TypeScript, Vue, Python, and Dart. Continuous, hands-on building.
+        - link "github.com/alymaher494 ↗" [ref=e771] [cursor=pointer]:
+          - /url: https://github.com/alymaher494
+      - generic [ref=e772]:
+        - link "tqdr-plus ↗ case Vue / Aug 2026" [ref=e774] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/tqdr-plus
+          - generic [ref=e775]:
+            - generic [ref=e776]: tqdr-plus ↗
+            - generic [ref=e777]: case
+          - generic [ref=e778]:
+            - text: Vue
+            - generic [ref=e780]: /
+            - text: Aug 2026
+        - link "dental-germany ↗ TypeScript / Aug 2026" [ref=e782] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/dental-germany
+          - generic [ref=e783]: dental-germany ↗
+          - generic [ref=e785]:
+            - text: TypeScript
+            - generic [ref=e787]: /
+            - text: Aug 2026
+        - link "ai-assistant ↗ TypeScript / Aug 2026" [ref=e789] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/ai-assistant
+          - generic [ref=e790]: ai-assistant ↗
+          - generic [ref=e792]:
+            - text: TypeScript
+            - generic [ref=e794]: /
+            - text: Aug 2026
+        - link "beauty-academy ↗ JavaScript / Aug 2026" [ref=e796] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/beauty-academy
+          - generic [ref=e797]: beauty-academy ↗
+          - generic [ref=e799]:
+            - text: JavaScript
+            - generic [ref=e801]: /
+            - text: Aug 2026
+        - link "alnebras ↗ case TypeScript / Aug 2026" [ref=e803] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/alnebras
+          - generic [ref=e804]:
+            - generic [ref=e805]: alnebras ↗
+            - generic [ref=e806]: case
+          - generic [ref=e807]:
+            - text: TypeScript
+            - generic [ref=e809]: /
+            - text: Aug 2026
+        - link "painting-woocomarce ↗ TypeScript / Jul 2026" [ref=e811] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/painting-woocomarce
+          - generic [ref=e812]: painting-woocomarce ↗
+          - generic [ref=e814]:
+            - text: TypeScript
+            - generic [ref=e816]: /
+            - text: Jul 2026
+        - link "chat-project ↗ TypeScript / Jul 2026" [ref=e818] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/chat-project
+          - generic [ref=e819]: chat-project ↗
+          - generic [ref=e821]:
+            - text: TypeScript
+            - generic [ref=e823]: /
+            - text: Jul 2026
+        - link "kobani-rsvp ↗ TypeScript / Jul 2026" [ref=e825] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/kobani-rsvp
+          - generic [ref=e826]: kobani-rsvp ↗
+          - generic [ref=e828]:
+            - text: TypeScript
+            - generic [ref=e830]: /
+            - text: Jul 2026
+        - link "4d4dich.de ↗ case TypeScript / Jun 2026" [ref=e832] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/4d4dich.de
+          - generic [ref=e833]:
+            - generic [ref=e834]: 4d4dich.de ↗
+            - generic [ref=e835]: case
+          - generic [ref=e836]:
+            - text: TypeScript
+            - generic [ref=e838]: /
+            - text: Jun 2026
+        - link "shpifay-payzaty ↗ TypeScript / Apr 2026" [ref=e840] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/shpifay-payzaty
+          - generic [ref=e841]: shpifay-payzaty ↗
+          - generic [ref=e843]:
+            - text: TypeScript
+            - generic [ref=e845]: /
+            - text: Apr 2026
+        - link "Aqara-crm ↗ TypeScript / Mar 2026" [ref=e847] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/Aqara-crm
+          - generic [ref=e848]: Aqara-crm ↗
+          - generic [ref=e850]:
+            - text: TypeScript
+            - generic [ref=e852]: /
+            - text: Mar 2026
+        - link "supermarketer ↗ case TypeScript / Feb 2026" [ref=e854] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/supermarketer
+          - generic [ref=e855]:
+            - generic [ref=e856]: supermarketer ↗
+            - generic [ref=e857]: case
+          - generic [ref=e858]:
+            - text: TypeScript
+            - generic [ref=e860]: /
+            - text: Feb 2026
+        - link "landing-mtgar ↗ case JavaScript / Jan 2026" [ref=e862] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/landing-mtgar
+          - generic [ref=e863]:
+            - generic [ref=e864]: landing-mtgar ↗
+            - generic [ref=e865]: case
+          - generic [ref=e866]:
+            - text: JavaScript
+            - generic [ref=e868]: /
+            - text: Jan 2026
+        - link "voith-platform ↗ Python / Jan 2026" [ref=e870] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/voith-platform
+          - generic [ref=e871]: voith-platform ↗
+          - generic [ref=e873]:
+            - text: Python
+            - generic [ref=e875]: /
+            - text: Jan 2026
+        - link "voith ↗ — / Dec 2025" [ref=e877] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/voith
+          - generic [ref=e878]: voith ↗
+          - generic [ref=e880]:
+            - text: —
+            - generic [ref=e882]: /
+            - text: Dec 2025
+        - link "latakia-cus ↗ Dart / Aug 2025" [ref=e884] [cursor=pointer]:
+          - /url: https://github.com/alymaher494/latakia-cus
+          - generic [ref=e885]: latakia-cus ↗
+          - generic [ref=e887]:
+            - text: Dart
+            - generic [ref=e889]: /
+            - text: Aug 2025
+      - generic [ref=e890]:
+        - generic [ref=e891]: Live
+        - generic [ref=e893]: Updated 03:28 AM
+    - generic [ref=e895]:
+      - generic [ref=e896]:
+        - generic [ref=e897]: "[ 05 / ENGAGEMENT ]"
+        - heading "How we work." [level=2] [ref=e898]
+      - generic [ref=e899]:
+        - generic [ref=e900]:
+          - generic [ref=e901]: STEP.01
+          - heading "Brief" [level=3] [ref=e902]
+          - paragraph [ref=e903]: You send the problem. I map the system, the stack, and the contract.
+        - generic [ref=e904]:
+          - generic [ref=e905]: STEP.02
+          - heading "Build" [level=3] [ref=e906]
+          - paragraph [ref=e907]: Contract-first engineering with visible progress — no black boxes.
+        - generic [ref=e908]:
+          - generic [ref=e909]: STEP.03
+          - heading "Ship" [level=3] [ref=e910]
+          - paragraph [ref=e911]: Production-hardened, documented, and handed over ready to run.
+    - generic [ref=e913]:
+      - generic [ref=e914]:
+        - generic [ref=e915]: "[04"
+        - generic [ref=e917]: TERMINAL
+        - generic [ref=e918]: "]"
+      - generic [ref=e919]:
+        - heading "Let's build your system." [level=2] [ref=e920]
+        - paragraph [ref=e921]: Freelance engagements, remote roles, or a technical conversation about a system you need shipped. Send a brief — I'll reply fast.
+      - generic [ref=e922]:
+        - link "alymaher.494@gmail.com" [ref=e924] [cursor=pointer]:
+          - /url: mailto:alymaher.494@gmail.com
+        - link "WhatsApp" [ref=e926] [cursor=pointer]:
+          - /url: https://wa.me/201152663461
+      - generic [ref=e929]:
+        - generic [ref=e930]:
+          - textbox "Name" [ref=e931]
+          - textbox "Email" [ref=e932]
+        - combobox [ref=e933]:
+          - option "Project type" [disabled] [selected]
+          - option "Headless Web & E-commerce"
+          - option "Payment Middleware & Checkout"
+          - option "Applied AI & Automation"
+          - option "Multi-Tenant & Infrastructure"
+        - textbox "Tell me about the system you need shipped…" [ref=e934]
+        - generic [ref=e935]:
+          - 'checkbox "Send me the free guide: “Do you need a normal website or a custom system?”" [ref=e936]'
+          - generic [ref=e937]: "Send me the free guide: “Do you need a normal website or a custom system?”"
+        - button "Send brief" [ref=e938] [cursor=pointer]
+        - paragraph [ref=e939]: No form key set — this opens your email client instead.
+      - generic [ref=e940]:
+        - link "GitHub" [ref=e941] [cursor=pointer]:
+          - /url: https://github.com/alymaher494
+        - link "LinkedIn" [ref=e942] [cursor=pointer]:
+          - /url: "#"
+        - link "WhatsApp" [ref=e943] [cursor=pointer]:
+          - /url: https://wa.me/201152663461
+        - link "Email" [ref=e944] [cursor=pointer]:
+          - /url: mailto:alymaher.494@gmail.com
+      - generic [ref=e945]: SYS.END // Aly Maher — AI-Powered Creative Full-Stack Developer & Systems Engineer
+  - contentinfo [ref=e948]:
+    - generic [ref=e949]:
+      - generic [ref=e950]:
+        - img "Aly Maher logo" [ref=e953]
+        - paragraph [ref=e954]: AI-Powered Creative Full-Stack Developer & Systems Engineer
+      - generic [ref=e955]:
+        - generic [ref=e956]: "[ NAV ]"
+        - list [ref=e957]:
+          - listitem [ref=e958]:
+            - link "Projects" [ref=e959] [cursor=pointer]:
+              - /url: /work
+          - listitem [ref=e960]:
+            - link "Services" [ref=e961] [cursor=pointer]:
+              - /url: /capabilities
+          - listitem [ref=e962]:
+            - link "Case Studies" [ref=e963] [cursor=pointer]:
+              - /url: /case-studies
+          - listitem [ref=e964]:
+            - link "Pricing" [ref=e965] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e966]:
+            - link "Contact" [ref=e967] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e968]:
+        - generic [ref=e969]: "[ CHANNELS ]"
+        - list [ref=e970]:
+          - listitem [ref=e971]:
+            - link "GitHub" [ref=e972] [cursor=pointer]:
+              - /url: https://github.com/alymaher494
+          - listitem [ref=e973]:
+            - link "LinkedIn" [ref=e974] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e975]:
+            - link "WhatsApp" [ref=e976] [cursor=pointer]:
+              - /url: https://wa.me/201152663461
+          - listitem [ref=e977]:
+            - link "Email" [ref=e978] [cursor=pointer]:
+              - /url: mailto:alymaher.494@gmail.com
+          - listitem [ref=e979]:
+            - link "alymaher.494@gmail.com" [ref=e980] [cursor=pointer]:
+              - /url: mailto:alymaher.494@gmail.com
+      - generic [ref=e981]:
+        - generic [ref=e982]: "[ STATUS ]"
+        - paragraph [ref=e983]: Available for freelance & remote engagements.
+        - paragraph [ref=e984]: Remote · GCC-friendly
+    - generic [ref=e985]: SYS.END // Aly Maher — AI-Powered Creative Full-Stack Developer & Systems Engineer
+  - link "Message on WhatsApp":
+    - /url: https://wa.me/201152663461
+  - button "Play music"

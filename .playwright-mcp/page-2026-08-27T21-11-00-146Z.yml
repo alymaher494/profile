@@ -1,0 +1,77 @@
+- generic [ref=e1]:
+  - generic [active]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - navigation [ref=e7]:
+          - button [disabled] [ref=e8]:
+            - img "previous" [ref=e9]
+          - generic [ref=e11]:
+            - generic [ref=e12]: 1/
+            - text: "1"
+          - button [disabled] [ref=e13]:
+            - img "next" [ref=e14]
+        - link "Next.js 15.5.24 (outdated) Webpack" [ref=e17] [cursor=pointer]:
+          - /url: https://nextjs.org/docs/messages/version-staleness
+          - generic "An outdated version detected (latest is 16.3.3), upgrade is highly recommended!" [ref=e20]: Next.js 15.5.24 (outdated)
+          - generic [ref=e21]: Webpack
+      - dialog "Runtime Error" [ref=e23]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - generic [ref=e29]: Runtime Error
+              - generic [ref=e31]:
+                - button "Copy Error Info" [ref=e32] [cursor=pointer]
+                - button "No related documentation found" [disabled] [ref=e35]
+                - link "Learn more about enabling Node.js inspector for server code with Chrome DevTools" [ref=e38] [cursor=pointer]:
+                  - /url: https://nextjs.org/docs/app/building-your-application/configuring/debugging#server-side-code
+            - paragraph [ref=e48]: "Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports. Check the render method of `FeaturedWork`."
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - paragraph [ref=e52]:
+                - generic [ref=e57]: components\sections\FeaturedWork.tsx (47:15) @ eval
+                - button "Open in editor" [ref=e58] [cursor=pointer]
+              - generic [ref=e63]:
+                - generic [ref=e64]: 45 | className="group border border-line bg-void"
+                - generic [ref=e65]: 46 | >
+                - generic [ref=e66]: "> 47 | <motion.a"
+                - generic [ref=e67]: "| ^"
+                - generic [ref=e68]: "48 | href={p.url}"
+                - generic [ref=e69]: 49 | target="_blank"
+                - generic [ref=e70]: 50 | rel="noopener noreferrer"
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - paragraph [ref=e73]:
+                  - text: Call Stack
+                  - generic [ref=e74]: "17"
+                - button "Show 13 ignore-listed frame(s)" [ref=e75] [cursor=pointer]
+              - generic [ref=e78]:
+                - generic [ref=e79]:
+                  - text: eval
+                  - button "Open eval in editor" [ref=e80] [cursor=pointer]
+                - text: components\sections\FeaturedWork.tsx (47:15)
+              - generic [ref=e83]:
+                - generic [ref=e84]: Array.map
+                - text: <anonymous>
+              - generic [ref=e85]:
+                - generic [ref=e86]:
+                  - text: FeaturedWork
+                  - button "Open FeaturedWork in editor" [ref=e87] [cursor=pointer]
+                - text: components\sections\FeaturedWork.tsx (41:21)
+              - generic [ref=e90]:
+                - generic [ref=e91]:
+                  - text: Home
+                  - button "Open Home in editor" [ref=e92] [cursor=pointer]
+                - text: app\page.tsx (18:7)
+        - generic [ref=e95]:
+          - generic [ref=e96]: "1"
+          - generic [ref=e97]: "2"
+    - generic [ref=e102] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=e103]
+      - generic [ref=e107]:
+        - button "Open issues overlay" [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e110]: "0"
+            - generic [ref=e111]: "1"
+          - generic [ref=e112]: Issue
+        - button "Collapse issues badge" [ref=e113]
+  - 'heading "Application error: a client-side exception has occurred while loading localhost (see the browser console for more information)." [level=2] [ref=e118]'
