@@ -75,10 +75,10 @@ class AudioEngine {
     this.emit();
   }
 
-  private ensureCtx() {
+  private async ensureCtx() {
     if (!this.audio) return;
     if (this.ctx) {
-      if (this.ctx.state === "suspended") void this.ctx.resume();
+      if (this.ctx.state === "suspended") await this.ctx.resume();
       return;
     }
     const AC =
@@ -95,7 +95,7 @@ class AudioEngine {
     this.analyser.fftSize = 2048;
     src.connect(this.analyser);
     this.analyser.connect(this.ctx.destination);
-    if (this.ctx.state === "suspended") void this.ctx.resume();
+    if (this.ctx.state === "suspended") await this.ctx.resume();
   }
 
   async play() {
@@ -111,7 +111,7 @@ class AudioEngine {
       return;
     }
 
-    this.ensureCtx();
+    await this.ensureCtx();
     try {
       await a.play();
       this.playing = true;
