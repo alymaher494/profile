@@ -2,7 +2,6 @@
 
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import { useMotionPref } from "@/components/providers/MotionProvider";
 import { CoreErrorBoundary } from "./CoreErrorBoundary";
 
@@ -35,19 +34,9 @@ function useWebGLSupported() {
  * OS "Reduce Motion" setting, and respects the site's Motion toggle.
  */
 function CoreFallback() {
-  const motionOn = useMotionPref();
-
   return (
     <div aria-hidden className="core-fallback absolute inset-0 overflow-hidden">
-      <motion.div
-        className="absolute left-1/2 top-1/2 h-[460px] w-[460px] -translate-x-1/2 -translate-y-1/2"
-        animate={motionOn ? { rotate: 360 } : {}}
-        transition={
-          motionOn
-            ? { duration: 44, ease: "linear", repeat: Infinity }
-            : {}
-        }
-      >
+      <div className="core-fallback-ring core-fallback-ring-1">
         <svg viewBox="0 0 400 400" className="h-full w-full" fill="none">
           {[70, 130, 185].map((r) => (
             <circle
@@ -74,17 +63,9 @@ function CoreFallback() {
             );
           })}
         </svg>
-      </motion.div>
+      </div>
 
-      <motion.div
-        className="absolute left-1/2 top-1/2 h-[280px] w-[280px] -translate-x-1/2 -translate-y-1/2"
-        animate={motionOn ? { rotate: -360 } : {}}
-        transition={
-          motionOn
-            ? { duration: 30, ease: "linear", repeat: Infinity }
-            : {}
-        }
-      >
+      <div className="core-fallback-ring core-fallback-ring-2">
         <svg viewBox="0 0 400 400" className="h-full w-full" fill="none">
           <rect
             x="60"
@@ -103,17 +84,9 @@ function CoreFallback() {
             strokeWidth="0.6"
           />
         </svg>
-      </motion.div>
+      </div>
 
-      <motion.div
-        className="absolute left-1/2 top-1/2 h-2.5 w-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-signal"
-        animate={motionOn ? { scale: [1, 1.6, 1], opacity: [0.6, 1, 0.6] } : {}}
-        transition={
-          motionOn
-            ? { duration: 4, ease: "easeInOut", repeat: Infinity }
-            : {}
-        }
-      />
+      <div className="core-fallback-core rounded-full bg-signal" />
     </div>
   );
 }
