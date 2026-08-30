@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { revealUp } from "@/lib/motion";
 import { useMounted } from "@/lib/useMounted";
 import { useMotionPref } from "@/components/providers/MotionProvider";
+import { useEffect, useState } from "react";
 
 interface RevealProps {
   children: React.ReactNode;
@@ -39,13 +40,18 @@ export function Reveal({
   const mounted = useMounted();
   const MotionTag = motion[as] as typeof motion.div;
   const Tag = as as "div";
+  const [innerHeight, setInnerHeight] = useState(0);
 
   const { scrollY } = useScroll();
   const parallaxY = useTransform(
     scrollY,
-    [0, window.innerHeight],
+    [0, innerHeight || 1],
     [0, parallaxDistance]
   );
+
+  useEffect(() => {
+    setInnerHeight(window.innerHeight);
+  }, []);
 
   if (!mounted || !motionOn) {
     return <Tag className={className}>{children}</Tag>;
